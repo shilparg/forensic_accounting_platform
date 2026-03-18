@@ -1,0 +1,56 @@
+[0m01:25:59.705809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x756111f7ecf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x756115bfae90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x756110fa7c50>]}
+
+
+============================== 01:25:59.714434 | 3e7f8f59-43a1-4f08-9d24-b84e8ea897e7 ==============================
+[0m01:25:59.714434 [info ] [MainThread]: Running with dbt=1.11.7
+[0m01:25:59.715321 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_colors': 'True', 'partial_parse': 'True', 'debug': 'False', 'fail_fast': 'False', 'cache_selected_only': 'False', 'introspect': 'True', 'write_json': 'True', 'profiles_dir': '/home/shilpakk/.dbt', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'log_format': 'default', 'version_check': 'True', 'quiet': 'False', 'static_parser': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'invocation_command': 'dbt init forensic_transform', 'target_path': 'None', 'empty': 'None', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m01:25:59.751958 [error] [MainThread]: Encountered an error:
+'NoneType' object is not subscriptable
+[0m01:25:59.756511 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/task/init.py", line 319, in run
+    profile_name = self.get_profile_name_from_current_project()
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/task/init.py", line 140, in get_profile_name_from_current_project
+    return dbt_project["profile"]
+           ~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+[0m01:25:59.759506 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.15312749, "process_in_blocks": "128864", "process_kernel_time": 1.138905, "process_mem_max_rss": "119104", "process_out_blocks": "8", "process_user_time": 3.711399}
+[0m01:25:59.760322 [debug] [MainThread]: Command `dbt init` failed at 01:25:59.760136 after 0.15 seconds
+[0m01:25:59.760994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x756110e4c3e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x756110e532f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x756111023790>]}
+[0m01:25:59.761630 [debug] [MainThread]: Flushing usage events
+[0m01:26:00.625345 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:28:20.909544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791100e8acf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791104ae6e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7910ffe27c50>]}
+
+
+============================== 01:28:20.918496 | 67c8dabb-e0b9-4ee7-b018-5966472c4eec ==============================
+[0m01:28:20.918496 [info ] [MainThread]: Running with dbt=1.11.7
+[0m01:28:20.919456 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'introspect': 'True', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'warn_error': 'None', 'invocation_command': 'dbt init forensic_transform', 'profiles_dir': '/home/shilpakk/.dbt', 'static_parser': 'True', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'fail_fast': 'False', 'use_colors': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'no_print': 'None', 'write_json': 'True', 'partial_parse': 'True', 'quiet': 'False', 'log_format': 'default', 'empty': 'None', 'printer_width': '80', 'use_experimental_parser': 'False'}
+[0m01:28:20.950415 [error] [MainThread]: Encountered an error:
+'NoneType' object is not subscriptable
+[0m01:28:20.955209 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/task/init.py", line 319, in run
+    profile_name = self.get_profile_name_from_current_project()
+  File "/home/shilpakk/venv/lib/python3.13/site-packages/dbt/task/init.py", line 140, in get_profile_name_from_current_project
+    return dbt_project["profile"]
+           ~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+[0m01:28:20.958044 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.14778022, "process_in_blocks": "55256", "process_kernel_time": 0.72746, "process_mem_max_rss": "119444", "process_out_blocks": "16", "process_user_time": 3.668588}
+[0m01:28:20.958878 [debug] [MainThread]: Command `dbt init` failed at 01:28:20.958709 after 0.15 seconds
+[0m01:28:20.959528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7910ffcd03e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7910ffcd72f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7910ffe9f790>]}
+[0m01:28:20.960197 [debug] [MainThread]: Flushing usage events
+[0m01:28:21.848842 [debug] [MainThread]: An error was encountered while trying to flush usage events

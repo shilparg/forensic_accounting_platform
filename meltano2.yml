@@ -1,0 +1,25 @@
+version: 1
+default_environment: dev
+project_id: forensic-accounting-platform
+
+environments:
+  - name: dev
+
+plugins:
+  extractors:
+    - name: tap-mongodb
+      variant: meltano-labs
+      namespace: tap_mongodb
+      config:
+        # This will pull from your .env file for security
+        connection_string: ${MONGO_URI}
+        database: forensic_accounting
+
+  loaders:
+    - name: target-bigquery
+      namespace: target_bigquery
+      executable: target-bigquery
+      config:
+        project_id: forensic-accounting-bot
+        dataset_id: raw_sec_landing
+        location: asia-southeast1

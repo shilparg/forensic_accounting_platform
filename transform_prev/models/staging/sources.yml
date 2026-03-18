@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_sec_landing
+    database: forensic-accounting-bot  # Your GCP Project ID
+    schema: raw_data                  # The dataset Meltano loads into
+    tables:
+      - name: raw_filings

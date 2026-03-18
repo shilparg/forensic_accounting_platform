@@ -1,0 +1,29 @@
+version: 1
+default_environment: dev
+project_id: forensic-accounting-platform
+
+environments:
+  - name: dev
+
+plugins:
+  extractors:
+    - name: tap-sec-forensics
+      namespace: tap_sec_forensics
+      executable: python3
+      commands:
+        run:
+          args: extract_load/extract_sec_data.py
+      settings:
+        - name: ticker
+        - name: cik
+
+  loaders:
+    - name: target-bigquery
+      namespace: target_bigquery
+      # This pulls from PyPI instead of GitHub, bypassing the Git 'Not Found' error
+      pip_url: target-bigquery
+      executable: target-bigquery
+      config:
+        project_id: forensic-accounting-bot
+        dataset_id: raw_sec_landing
+        location: asia-southeast1

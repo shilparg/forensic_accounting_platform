@@ -1,0 +1,199 @@
+FORENSIC ACCOUNTING RISK REPORTS
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0546 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0546 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0546 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0546 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0544 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0544 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0544 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0544 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0544 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: AAPL
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0544 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:2.41 (Days to cover)
+  - Debt-to-Equity:    102.63%
+  - Operating Margin:  35.37%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: NVDA
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0464 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:1.32 (Days to cover)
+  - Debt-to-Equity:    7.255%
+  - Operating Margin:  65.02%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: NVDA
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0464 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:1.32 (Days to cover)
+  - Debt-to-Equity:    7.255%
+  - Operating Margin:  65.02%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: MSFT
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0643 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:1.63 (Days to cover)
+  - Debt-to-Equity:    31.539%
+  - Operating Margin:  47.09%
+==================================================
+
+==================================================
+       FORENSIC REPORT CARD: MSFT
+==================================================
+ OVERALL SYSTEM FLAG:  Low Risk
+--------------------------------------------------
+ SOURCE A: SEC EDGAR (Management Tone)
+  - Sentiment Score:   0.0643 (Scale: -1 to 1)
+--------------------------------------------------
+ SOURCE B: YAHOO FINANCE (Market Reality)
+  - Market Short Ratio:1.63 (Days to cover)
+  - Debt-to-Equity:    31.539%
+  - Operating Margin:  47.09%
+==================================================
+
