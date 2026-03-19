@@ -1,0 +1,12 @@
+forensic_profile:  # <--- This must match the 'profile' in dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: forensic-accounting-bot 
+      dataset: forensic_data           
+      threads: 4
+      keyfile: ../gcp-service-account.json 
+      location: asia-southeast1
+      use_storage_api: true  # Add this line

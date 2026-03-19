@@ -1,0 +1,9 @@
+{
+  "investigation_target": [
+    {"cik": "320193", "ticker": "AAPL", "years": [2024, 2025]}
+  ],
+  "peer_group": [
+    {"cik": "789019", "ticker": "MSFT", "years": [2025]},
+    {"cik": "1045810", "ticker": "NVDA", "years": [2025]}
+  ]
+}

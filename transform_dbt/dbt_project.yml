@@ -1,0 +1,17 @@
+name: 'forensic_transform'
+version: '1.0.0'
+config-version: 2
+
+# This MUST match the top line of your profiles.yml exactly
+profile: 'forensic_profile' 
+
+model-paths: ["models"]
+
+models:
+  forensic_transform:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

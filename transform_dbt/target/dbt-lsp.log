@@ -1,0 +1,1801 @@
+==================== 2026-03-19T12:10:00.158161Z | 44065e6a-041a-47b3-b58a-ec7b76f0f5a3 ====================
+12:10:00.161407 [info ]: Starting dbt LSP server
+12:10:00.161505 [info ]: Connecting to LSP client on port 8000
+12:10:00.163969 [info ]: Successfully connected to LSP client
+12:10:00.164042 [info ]: Creating LSP service...
+12:10:00.345361 [info ]: Creating LSP server...
+12:10:00.345426 [info ]: Starting LSP server...
+12:10:00.533717 [info ]: Started loading project
+12:10:00.571649 [info ]: Finished loading project [  0.04s]
+12:10:16.132756 [info ]: Started loading project
+12:10:16.150976 [info ]: Loading ~/.dbt/profiles.yml
+12:10:16.154566 [info ]: Finished loading project [  0.02s]
+12:10:16.691634 [info ]: Loading ~/.dbt/profiles.yml
+12:11:10.125942 [info ]: Loading ~/.dbt/profiles.yml
+12:11:19.716846 [info ]: Loading ~/.dbt/profiles.yml
+12:11:20.144926 [info ]: Loading ~/.dbt/profiles.yml
+12:11:25.510869 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.153214 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.225349 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.247954 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.278603 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.336911 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.374323 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.409879 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.443330 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.475739 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.506648 [info ]: Loading ~/.dbt/profiles.yml
+12:11:26.607877 [info ]: Loading ~/.dbt/profiles.yml
+12:12:10.962757 [info ]: Started loading project
+12:12:10.963370 [info ]: Loading ~/.dbt/profiles.yml
+12:12:10.963832 [info ]: Finished loading project [  0.00s]
+12:12:11.435171 [info ]: Loading ~/.dbt/profiles.yml
+12:14:30.228760 [info ]: Started loading project
+12:14:30.229402 [info ]: Loading profiles.yml
+12:14:30.241249 [info ]: Finished loading project [  0.01s]
+12:15:00.012142 [info ]: Started loading project
+12:15:00.012795 [info ]: Loading profiles.yml
+12:15:00.013255 [info ]: Finished loading project [  0.00s]
+12:15:00.539153 [info ]: Loading profiles.yml
+12:15:06.759770 [info ]: Started loading project
+12:15:06.760346 [info ]: Loading profiles.yml
+12:15:06.760797 [info ]: Finished loading project [  0.00s]
+12:15:07.220098 [info ]: Loading profiles.yml
+12:15:12.837535 [info ]: Started loading project
+12:15:12.838366 [info ]: Loading profiles.yml
+12:15:12.838752 [info ]: Finished loading project [  0.00s]
+12:15:13.257051 [info ]: Loading profiles.yml
+12:15:35.447850 [info ]: Started loading project
+12:15:35.448299 [info ]: Loading profiles.yml
+12:15:35.448678 [info ]: Finished loading project [  0.00s]
+12:15:35.905505 [info ]: Loading profiles.yml
+12:15:38.479272 [info ]: Started loading project
+12:15:38.479814 [info ]: Loading profiles.yml
+12:15:38.480178 [info ]: Finished loading project [  0.00s]
+12:15:38.935605 [info ]: Loading profiles.yml
+12:16:22.836640 [info ]: Started loading project
+12:16:22.837221 [info ]: Loading profiles.yml
+12:16:22.837596 [info ]: Finished loading project [  0.00s]
+12:16:23.300582 [info ]: Loading profiles.yml
+12:16:25.240676 [info ]: Started loading project
+12:16:25.241232 [info ]: Loading profiles.yml
+12:16:25.241652 [info ]: Finished loading project [  0.00s]
+12:16:25.784031 [info ]: Loading profiles.yml
+12:16:32.776653 [info ]: Started loading project
+12:16:32.777131 [info ]: Loading profiles.yml
+12:16:32.777605 [info ]: Finished loading project [  0.00s]
+12:16:33.168005 [info ]: Loading profiles.yml
+12:16:59.453048 [info ]: Started loading project
+12:16:59.453708 [info ]: Loading profiles.yml
+12:16:59.636387 [debug]:    Started loading packages
+12:16:59.656072 [debug]:     Loaded [  0.02s] packages
+12:16:59.677394 [info ]: Started parsing
+12:16:59.781611 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+12:16:59.782014 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+12:16:59.782080 [info ]: Finished loading project [  0.33s]
+12:16:59.782308 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+12:16:59.818770 [debug]: Finished parsing models/sources.yml [  0.02s]
+12:16:59.838801 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.01s]
+12:16:59.841815 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+12:16:59.842826 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+12:16:59.843902 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+12:16:59.845017 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+12:16:59.859675 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+12:16:59.865765 [info ]: Finished parsing [  0.19s]
+12:16:59.867942 [info ]: Cached model count updated: 6 models (estimate)
+12:16:59.868043 [info ]: Cached model count updated: 6 models (accurate)
+12:16:59.873553 [info ]: Started scheduling
+12:16:59.880860 [info ]: Finished scheduling [  0.01s]
+12:16:59.881079 [info ]: Started scheduling
+12:16:59.881257 [info ]: Finished scheduling [  0.00s]
+12:16:59.896536 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+12:16:59.908168 [info ]: Started deferring state
+12:16:59.908266 [info ]: Finished deferring state [  0.00s]
+12:16:59.985841 [info ]: Started downloading schemas
+12:16:59.986484 [debug]:    Started downloading relations
+12:16:59.991970 [debug]:   Finished [  0.01s] downloading relations
+12:17:00.420109 [info ]: Loading profiles.yml
+12:17:00.924957 [info ]: Downloaded `forensic-accounting-bot`.`forensic_data`.`raw_filings` (schema)
+12:17:01.164484 [info ]: Started building task graph
+12:17:01.174082 [info ]: Finished building task graph [  0.01s]
+12:17:01.183720 [info ]: Started rendering (6 nodes)
+12:17:01.187689 [info ]: Started model forensic_data.stg_sec_filings
+12:17:01.187785 [debug]: Started rendering model forensic_data.stg_sec_filings
+12:17:01.187991 [info ]: Finished downloading schemas [  1.20s]
+12:17:01.207189 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+12:17:01.207789 [debug]: Finished rendering [  0.02s] model forensic_data.stg_sec_filings [success]
+12:17:01.207895 [info ]: Started analyzing (6 nodes)
+12:17:01.207910 [debug]: Started analyzing model forensic_data.stg_sec_filings
+12:17:01.373504 [info ]:  Succeeded [  0.18s] model forensic_data.stg_sec_filings (view)
+12:17:01.373588 [debug]: Finished analyzing [  0.17s] model forensic_data.stg_sec_filings [success]
+12:17:01.373626 [info ]: Started model forensic_data.int_forensic_metrics
+12:17:01.373641 [debug]: Started rendering model forensic_data.int_forensic_metrics
+12:17:01.373714 [info ]: Started model forensic_data.fct_narrative_drift
+12:17:01.373751 [debug]: Started rendering model forensic_data.fct_narrative_drift
+12:17:01.373771 [info ]: Started model forensic_data.fct_disclosure_density
+12:17:01.373780 [debug]: Started rendering model forensic_data.fct_disclosure_density
+12:17:01.373791 [info ]: Started model forensic_data.fct_red_flag_report
+12:17:01.373799 [debug]: Started rendering model forensic_data.fct_red_flag_report
+12:17:01.379900 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+12:17:01.380074 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+12:17:01.380102 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+12:17:01.381125 [debug]: Finished rendering [  0.01s] model forensic_data.fct_disclosure_density [success]
+12:17:01.381248 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+12:17:01.381294 [debug]: Finished rendering [  0.01s] model forensic_data.fct_narrative_drift [success]
+12:17:01.381317 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+12:17:01.381400 [debug]: Finished rendering [  0.01s] model forensic_data.int_forensic_metrics [success]
+12:17:01.381460 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+12:17:01.381817 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+12:17:01.382136 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+12:17:01.382252 [debug]: Finished rendering [  0.01s] model forensic_data.fct_red_flag_report [success]
+12:17:01.438493 [info ]:  Succeeded [  0.06s] model forensic_data.fct_disclosure_density (table)
+12:17:01.438570 [debug]: Finished analyzing [  0.06s] model forensic_data.fct_disclosure_density [success]
+12:17:01.442400 [info ]:  Succeeded [  0.07s] model forensic_data.fct_red_flag_report (table)
+12:17:01.442477 [debug]: Finished analyzing [  0.06s] model forensic_data.fct_red_flag_report [success]
+12:17:01.444036 [info ]:  Succeeded [  0.07s] model forensic_data.int_forensic_metrics (view)
+12:17:01.444107 [debug]: Finished analyzing [  0.06s] model forensic_data.int_forensic_metrics [success]
+12:17:01.444141 [info ]: Started model forensic_data.fct_anomaly_detection
+12:17:01.444157 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+12:17:01.445024 [info ]:  Succeeded [  0.07s] model forensic_data.fct_narrative_drift (view)
+12:17:01.445095 [debug]: Finished analyzing [  0.06s] model forensic_data.fct_narrative_drift [success]
+12:17:01.446533 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+12:17:01.446799 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+12:17:01.446875 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:17:01.446907 [info ]: Finished rendering [  0.26s] (6 nodes, 0 skipped, 0 errors)
+12:17:01.470837 [info ]:  Succeeded [  0.03s] model forensic_data.fct_anomaly_detection (view)
+12:17:01.470922 [debug]: Finished analyzing [  0.02s] model forensic_data.fct_anomaly_detection [success]
+12:17:01.470936 [info ]: Finished analyzing [  0.26s] (6 nodes, 0 skipped, 0 errors)
+12:17:01.484918 [info ]: Cached model count updated: 6 models (accurate)
+12:17:57.557678 [info ]: Started loading project
+12:17:57.558194 [info ]: Loading profiles.yml
+12:17:57.563346 [info ]: Started loading project
+12:17:57.563781 [info ]: Loading profiles.yml
+12:17:57.563909 [info ]: Finished loading project [  0.01s]
+12:17:57.579605 [debug]:    Started loading packages
+12:17:57.581187 [debug]:     Loaded [  0.00s] packages
+12:17:57.582481 [info ]: Started parsing
+12:17:57.655420 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+12:17:57.655643 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+12:17:57.655730 [info ]: Finished loading project [  0.09s]
+12:17:57.655779 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+12:17:57.663598 [debug]: Finished parsing models/sources.yml [  0.00s]
+12:17:57.666899 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+12:17:57.667714 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+12:17:57.668341 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+12:17:57.669004 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+12:17:57.669529 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+12:17:57.673904 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.00s]
+12:17:57.674399 [info ]: Finished parsing [  0.09s]
+12:17:57.674761 [info ]: Cached model count updated: 6 models (estimate)
+12:17:57.674807 [info ]: Cached model count updated: 6 models (accurate)
+12:17:57.674842 [info ]: Started scheduling
+12:17:57.674937 [info ]: Finished scheduling [  0.00s]
+12:17:57.674988 [info ]: Started scheduling
+12:17:57.675047 [info ]: Finished scheduling [  0.00s]
+12:17:57.675121 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+12:17:57.675947 [info ]: Started deferring state
+12:17:57.675996 [info ]: Finished deferring state [  0.00s]
+12:17:57.676803 [info ]: Started downloading schemas
+12:17:57.676883 [debug]:    Started downloading relations
+12:17:57.676912 [debug]:   Finished [  0.00s] downloading relations
+12:17:57.676929 [info ]: Finished downloading schemas [  0.00s]
+12:17:57.885430 [info ]: Started building task graph
+12:17:57.885646 [info ]: Finished building task graph [  0.00s]
+12:17:57.885968 [info ]: Started rendering (6 nodes)
+12:17:57.886039 [info ]: Started model forensic_data.stg_sec_filings
+12:17:57.886092 [debug]: Started rendering model forensic_data.stg_sec_filings
+12:17:57.888351 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+12:17:57.888503 [info ]: Started analyzing (6 nodes)
+12:17:57.888567 [debug]: Started analyzing model forensic_data.stg_sec_filings
+12:17:57.888546 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+12:17:57.902708 [info ]:  Succeeded [  0.02s] model forensic_data.stg_sec_filings (view)
+12:17:57.902862 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+12:17:57.902915 [info ]: Started model forensic_data.fct_red_flag_report
+12:17:57.902940 [debug]: Started rendering model forensic_data.fct_red_flag_report
+12:17:57.903089 [info ]: Started model forensic_data.fct_narrative_drift
+12:17:57.903147 [debug]: Started rendering model forensic_data.fct_narrative_drift
+12:17:57.903179 [info ]: Started model forensic_data.int_forensic_metrics
+12:17:57.903200 [debug]: Started rendering model forensic_data.int_forensic_metrics
+12:17:57.903221 [info ]: Started model forensic_data.fct_disclosure_density
+12:17:57.903243 [debug]: Started rendering model forensic_data.fct_disclosure_density
+12:17:57.905990 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+12:17:57.906043 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+12:17:57.906197 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+12:17:57.906292 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+12:17:57.906344 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+12:17:57.906413 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+12:17:57.906511 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+12:17:57.906435 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+12:17:57.906635 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+12:17:57.906693 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+12:17:57.907188 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+12:17:57.907265 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+12:17:57.911358 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (view)
+12:17:57.911495 [debug]: Finished analyzing [  0.00s] model forensic_data.int_forensic_metrics [success]
+12:17:57.911544 [info ]: Started model forensic_data.fct_anomaly_detection
+12:17:57.911627 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+12:17:57.911700 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (view)
+12:17:57.911746 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+12:17:57.911769 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+12:17:57.911802 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+12:17:57.912884 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+12:17:57.912964 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+12:17:57.913623 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+12:17:57.913735 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+12:17:57.913849 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:17:57.913894 [info ]: Finished rendering [  0.03s] (6 nodes, 0 skipped, 0 errors)
+12:17:57.917420 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (view)
+12:17:57.917510 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:17:57.917524 [info ]: Finished analyzing [  0.03s] (6 nodes, 0 skipped, 0 errors)
+12:17:57.927217 [info ]: Cached model count updated: 6 models (accurate)
+12:17:58.663465 [info ]: Loading profiles.yml
+12:18:20.906038 [info ]: Started loading project
+12:18:20.906519 [info ]: Loading profiles.yml
+12:18:20.910941 [info ]: Started loading project
+12:18:20.911452 [info ]: Loading profiles.yml
+12:18:20.911580 [info ]: Finished loading project [  0.01s]
+12:18:20.926278 [debug]:    Started loading packages
+12:18:20.927702 [debug]:     Loaded [  0.00s] packages
+12:18:20.929142 [info ]: Started parsing
+12:18:20.973326 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+12:18:20.973542 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+12:18:20.973629 [info ]: Finished loading project [  0.06s]
+12:18:20.973698 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+12:18:20.982479 [debug]: Finished parsing models/sources.yml [  0.00s]
+12:18:20.986827 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+12:18:20.987786 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+12:18:20.989017 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+12:18:20.990239 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+12:18:20.991001 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+12:18:20.996384 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+12:18:20.997055 [info ]: Finished parsing [  0.07s]
+12:18:20.997461 [info ]: Cached model count updated: 6 models (estimate)
+12:18:20.997508 [info ]: Cached model count updated: 6 models (accurate)
+12:18:20.997541 [info ]: Started scheduling
+12:18:20.997637 [info ]: Finished scheduling [  0.00s]
+12:18:20.997689 [info ]: Started scheduling
+12:18:20.997747 [info ]: Finished scheduling [  0.00s]
+12:18:20.997825 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+12:18:20.999997 [info ]: Started deferring state
+12:18:21.000051 [info ]: Finished deferring state [  0.00s]
+12:18:21.001235 [info ]: Started downloading schemas
+12:18:21.001334 [debug]:    Started downloading relations
+12:18:21.001367 [debug]:   Finished [  0.00s] downloading relations
+12:18:21.001416 [info ]: Finished downloading schemas [  0.00s]
+12:18:21.218060 [info ]: Started building task graph
+12:18:21.218297 [info ]: Finished building task graph [  0.00s]
+12:18:21.218525 [info ]: Started rendering (6 nodes)
+12:18:21.218598 [info ]: Started model forensic_data.stg_sec_filings
+12:18:21.218623 [debug]: Started rendering model forensic_data.stg_sec_filings
+12:18:21.220917 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+12:18:21.221076 [info ]: Started analyzing (6 nodes)
+12:18:21.221124 [debug]: Started analyzing model forensic_data.stg_sec_filings
+12:18:21.221156 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+12:18:21.231996 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+12:18:21.232088 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+12:18:21.232125 [info ]: Started model forensic_data.fct_red_flag_report
+12:18:21.232140 [debug]: Started rendering model forensic_data.fct_red_flag_report
+12:18:21.232216 [info ]: Started model forensic_data.fct_narrative_drift
+12:18:21.232232 [debug]: Started rendering model forensic_data.fct_narrative_drift
+12:18:21.232256 [info ]: Started model forensic_data.int_forensic_metrics
+12:18:21.232271 [debug]: Started rendering model forensic_data.int_forensic_metrics
+12:18:21.232285 [info ]: Started model forensic_data.fct_disclosure_density
+12:18:21.232375 [debug]: Started rendering model forensic_data.fct_disclosure_density
+12:18:21.234683 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+12:18:21.235202 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+12:18:21.235261 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+12:18:21.235318 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+12:18:21.235364 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+12:18:21.235394 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+12:18:21.235419 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+12:18:21.235461 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+12:18:21.235533 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+12:18:21.235676 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+12:18:21.235840 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+12:18:21.236017 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+12:18:21.239569 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (view)
+12:18:21.239630 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_narrative_drift [success]
+12:18:21.240624 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+12:18:21.240693 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+12:18:21.241380 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (view)
+12:18:21.241470 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+12:18:21.241515 [info ]: Started model forensic_data.fct_anomaly_detection
+12:18:21.241538 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+12:18:21.242899 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+12:18:21.242982 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+12:18:21.243686 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+12:18:21.243803 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+12:18:21.243881 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:18:21.243933 [info ]: Finished rendering [  0.03s] (6 nodes, 0 skipped, 0 errors)
+12:18:21.247536 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (view)
+12:18:21.247626 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:18:21.247809 [info ]: Finished analyzing [  0.03s] (6 nodes, 0 skipped, 0 errors)
+12:18:21.255441 [info ]: Cached model count updated: 6 models (accurate)
+12:18:21.393872 [info ]: Loading profiles.yml
+12:18:23.041628 [info ]: Started loading project
+12:18:23.042122 [info ]: Loading profiles.yml
+12:18:23.047816 [info ]: Started loading project
+12:18:23.048272 [info ]: Loading profiles.yml
+12:18:23.048387 [info ]: Finished loading project [  0.01s]
+12:18:23.063703 [debug]:    Started loading packages
+12:18:23.065798 [debug]:     Loaded [  0.00s] packages
+12:18:23.067211 [info ]: Started parsing
+12:18:23.147924 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+12:18:23.148147 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+12:18:23.148211 [info ]: Finished loading project [  0.10s]
+12:18:23.148324 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+12:18:23.156025 [debug]: Finished parsing models/sources.yml [  0.00s]
+12:18:23.159659 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+12:18:23.160797 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+12:18:23.161889 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+12:18:23.162966 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+12:18:23.163637 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+12:18:23.168476 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.00s]
+12:18:23.169012 [info ]: Finished parsing [  0.10s]
+12:18:23.169413 [info ]: Cached model count updated: 6 models (estimate)
+12:18:23.169457 [info ]: Cached model count updated: 6 models (accurate)
+12:18:23.169497 [info ]: Started scheduling
+12:18:23.169599 [info ]: Finished scheduling [  0.00s]
+12:18:23.169655 [info ]: Started scheduling
+12:18:23.169719 [info ]: Finished scheduling [  0.00s]
+12:18:23.169796 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+12:18:23.170618 [info ]: Started deferring state
+12:18:23.170667 [info ]: Finished deferring state [  0.00s]
+12:18:23.171441 [info ]: Started downloading schemas
+12:18:23.171546 [debug]:    Started downloading relations
+12:18:23.171578 [debug]:   Finished [  0.00s] downloading relations
+12:18:23.171623 [info ]: Finished downloading schemas [  0.00s]
+12:18:23.374594 [info ]: Started building task graph
+12:18:23.374799 [info ]: Finished building task graph [  0.00s]
+12:18:23.375029 [info ]: Started rendering (6 nodes)
+12:18:23.375099 [info ]: Started model forensic_data.stg_sec_filings
+12:18:23.375116 [debug]: Started rendering model forensic_data.stg_sec_filings
+12:18:23.377322 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+12:18:23.377461 [info ]: Started analyzing (6 nodes)
+12:18:23.377476 [debug]: Started analyzing model forensic_data.stg_sec_filings
+12:18:23.377540 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+12:18:23.387277 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+12:18:23.387364 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+12:18:23.387401 [info ]: Started model forensic_data.fct_disclosure_density
+12:18:23.387416 [debug]: Started rendering model forensic_data.fct_disclosure_density
+12:18:23.387490 [info ]: Started model forensic_data.fct_red_flag_report
+12:18:23.387528 [debug]: Started rendering model forensic_data.fct_red_flag_report
+12:18:23.387552 [info ]: Started model forensic_data.int_forensic_metrics
+12:18:23.387562 [debug]: Started rendering model forensic_data.int_forensic_metrics
+12:18:23.387576 [info ]: Started model forensic_data.fct_narrative_drift
+12:18:23.387587 [debug]: Started rendering model forensic_data.fct_narrative_drift
+12:18:23.389638 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+12:18:23.389800 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+12:18:23.389833 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+12:18:23.390148 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+12:18:23.390203 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+12:18:23.390296 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+12:18:23.390325 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+12:18:23.390432 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+12:18:23.390498 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+12:18:23.390556 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+12:18:23.390609 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+12:18:23.390692 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+12:18:23.394314 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (view)
+12:18:23.394396 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_narrative_drift [success]
+12:18:23.394859 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (view)
+12:18:23.395015 [debug]: Finished analyzing [  0.00s] model forensic_data.int_forensic_metrics [success]
+12:18:23.395056 [info ]: Started model forensic_data.fct_anomaly_detection
+12:18:23.395072 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+12:18:23.395673 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+12:18:23.395797 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+12:18:23.395887 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+12:18:23.395913 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+12:18:23.397031 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+12:18:23.397166 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+12:18:23.397345 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:18:23.397392 [info ]: Finished rendering [  0.02s] (6 nodes, 0 skipped, 0 errors)
+12:18:23.400812 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (view)
+12:18:23.400908 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:18:23.400923 [info ]: Finished analyzing [  0.02s] (6 nodes, 0 skipped, 0 errors)
+12:18:23.409650 [info ]: Cached model count updated: 6 models (accurate)
+12:18:24.294118 [info ]: Loading profiles.yml
+12:19:10.999551 [info ]: Started loading project
+12:19:11.000427 [info ]: Loading profiles.yml
+12:19:11.006398 [info ]: Started loading project
+12:19:11.006981 [info ]: Loading profiles.yml
+12:19:11.007082 [info ]: Finished loading project [  0.01s]
+12:19:11.025447 [debug]:    Started loading packages
+12:19:11.027765 [debug]:     Loaded [  0.00s] packages
+12:19:11.030301 [info ]: Started parsing
+12:19:11.108747 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+12:19:11.109097 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+12:19:11.109203 [info ]: Finished loading project [  0.10s]
+12:19:11.109326 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+12:19:11.118129 [debug]: Finished parsing models/sources.yml [  0.00s]
+12:19:11.122141 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+12:19:11.123069 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+12:19:11.123841 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+12:19:11.125038 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+12:19:11.126180 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+12:19:11.135380 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+12:19:11.136197 [info ]: Finished parsing [  0.11s]
+12:19:11.136721 [info ]: Cached model count updated: 6 models (estimate)
+12:19:11.136798 [info ]: Cached model count updated: 6 models (accurate)
+12:19:11.136908 [info ]: Started scheduling
+12:19:11.137140 [info ]: Finished scheduling [  0.00s]
+12:19:11.137232 [info ]: Started scheduling
+12:19:11.137329 [info ]: Finished scheduling [  0.00s]
+12:19:11.137494 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+12:19:11.138998 [info ]: Started deferring state
+12:19:11.139084 [info ]: Finished deferring state [  0.00s]
+12:19:11.140652 [info ]: Started downloading schemas
+12:19:11.140802 [debug]:    Started downloading relations
+12:19:11.140916 [debug]:   Finished [  0.00s] downloading relations
+12:19:11.140984 [info ]: Finished downloading schemas [  0.00s]
+12:19:11.390001 [info ]: Started building task graph
+12:19:11.390228 [info ]: Finished building task graph [  0.00s]
+12:19:11.390518 [info ]: Started rendering (6 nodes)
+12:19:11.390578 [info ]: Started model forensic_data.stg_sec_filings
+12:19:11.390597 [debug]: Started rendering model forensic_data.stg_sec_filings
+12:19:11.393048 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+12:19:11.393333 [info ]: Started analyzing (6 nodes)
+12:19:11.393334 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+12:19:11.393424 [debug]: Started analyzing model forensic_data.stg_sec_filings
+12:19:11.406209 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+12:19:11.406294 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+12:19:11.406334 [info ]: Started model forensic_data.fct_narrative_drift
+12:19:11.406350 [debug]: Started rendering model forensic_data.fct_narrative_drift
+12:19:11.406431 [info ]: Started model forensic_data.fct_red_flag_report
+12:19:11.406450 [debug]: Started rendering model forensic_data.fct_red_flag_report
+12:19:11.406466 [info ]: Started model forensic_data.fct_disclosure_density
+12:19:11.406476 [debug]: Started rendering model forensic_data.fct_disclosure_density
+12:19:11.406490 [info ]: Started model forensic_data.int_forensic_metrics
+12:19:11.406498 [debug]: Started rendering model forensic_data.int_forensic_metrics
+12:19:11.409967 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+12:19:11.410011 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+12:19:11.410090 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+12:19:11.410127 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+12:19:11.410136 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+12:19:11.410258 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+12:19:11.410440 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+12:19:11.410524 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+12:19:11.410574 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+12:19:11.410610 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+12:19:11.411400 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+12:19:11.411674 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+12:19:11.415191 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (view)
+12:19:11.415324 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+12:19:11.416817 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (view)
+12:19:11.416957 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+12:19:11.417014 [info ]: Started model forensic_data.fct_anomaly_detection
+12:19:11.417048 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+12:19:11.417328 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+12:19:11.417420 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+12:19:11.419537 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+12:19:11.419691 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+12:19:11.419755 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:19:11.419782 [info ]: Finished rendering [  0.03s] (6 nodes, 0 skipped, 0 errors)
+12:19:11.420236 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+12:19:11.420318 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+12:19:11.423838 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (view)
+12:19:11.423928 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+12:19:11.423944 [info ]: Finished analyzing [  0.03s] (6 nodes, 0 skipped, 0 errors)
+12:19:11.432573 [info ]: Cached model count updated: 6 models (accurate)
+12:19:11.568901 [info ]: Loading profiles.yml
+13:31:14.172227 [info ]: Started loading project
+13:31:14.191016 [info ]: Loading profiles.yml
+13:31:14.236430 [info ]: Started loading project
+13:31:14.237159 [info ]: Loading profiles.yml
+13:31:14.238063 [info ]: Finished loading project [  0.07s]
+13:31:14.382090 [debug]:    Started loading packages
+13:31:14.385599 [debug]:     Loaded [  0.00s] packages
+13:31:14.394168 [info ]: Started parsing
+13:31:14.502001 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+13:31:14.502823 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+13:31:14.502966 [info ]: Finished loading project [  0.27s]
+13:31:14.503128 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+13:31:14.528550 [debug]: Finished parsing models/sources.yml [  0.01s]
+13:31:14.545234 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.01s]
+13:31:14.548804 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+13:31:14.550208 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+13:31:14.551544 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+13:31:14.552775 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+13:31:14.553307 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+13:31:14.566242 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+13:31:14.570086 [info ]: Finished parsing [  0.18s]
+13:31:14.571653 [info ]: Cached model count updated: 7 models (estimate)
+13:31:14.571707 [info ]: Cached model count updated: 7 models (accurate)
+13:31:14.572483 [info ]: Started scheduling
+13:31:14.574453 [info ]: Finished scheduling [  0.00s]
+13:31:14.574758 [info ]: Started scheduling
+13:31:14.574878 [info ]: Finished scheduling [  0.00s]
+13:31:14.577572 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+13:31:14.581374 [info ]: Started deferring state
+13:31:14.581577 [info ]: Finished deferring state [  0.00s]
+13:31:14.595626 [info ]: Started downloading schemas
+13:31:14.596502 [debug]:    Started downloading relations
+13:31:14.597477 [debug]:   Finished [  0.00s] downloading relations
+13:31:14.597682 [info ]: Finished downloading schemas [  0.00s]
+13:31:14.823755 [info ]: Started building task graph
+13:31:14.825116 [info ]: Finished building task graph [  0.00s]
+13:31:14.827482 [info ]: Started rendering (6 nodes)
+13:31:14.827904 [info ]: Started model forensic_data.stg_sec_filings
+13:31:14.828215 [debug]: Started rendering model forensic_data.stg_sec_filings
+13:31:14.840414 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+13:31:14.841130 [debug]: Finished rendering [  0.01s] model forensic_data.stg_sec_filings [success]
+13:31:14.841334 [info ]: Started analyzing (6 nodes)
+13:31:14.841382 [debug]: Started analyzing model forensic_data.stg_sec_filings
+13:31:14.912153 [info ]:  Succeeded [  0.08s] model forensic_data.stg_sec_filings (view)
+13:31:14.912329 [debug]: Finished analyzing [  0.07s] model forensic_data.stg_sec_filings [success]
+13:31:14.912403 [info ]: Started model forensic_data.fct_narrative_drift
+13:31:14.912447 [debug]: Started rendering model forensic_data.fct_narrative_drift
+13:31:14.912525 [info ]: Started model forensic_data.fct_disclosure_density
+13:31:14.912563 [debug]: Started rendering model forensic_data.fct_disclosure_density
+13:31:14.912584 [info ]: Started model forensic_data.fct_red_flag_report
+13:31:14.912595 [debug]: Started rendering model forensic_data.fct_red_flag_report
+13:31:14.912616 [info ]: Started model forensic_data.int_forensic_metrics
+13:31:14.912653 [debug]: Started rendering model forensic_data.int_forensic_metrics
+13:31:14.916847 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+13:31:14.917349 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+13:31:14.917599 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+13:31:14.925645 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+13:31:14.925769 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+13:31:14.925909 [debug]: Finished rendering [  0.01s] model forensic_data.fct_narrative_drift [success]
+13:31:14.925968 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+13:31:14.926071 [debug]: Finished rendering [  0.01s] model forensic_data.fct_red_flag_report [success]
+13:31:14.926104 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+13:31:14.928664 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+13:31:14.928884 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+13:31:14.928947 [debug]: Finished rendering [  0.02s] model forensic_data.fct_disclosure_density [success]
+13:31:14.938538 [info ]:  Succeeded [  0.03s] model forensic_data.fct_disclosure_density (table)
+13:31:14.938664 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+13:31:14.940854 [info ]:  Succeeded [  0.03s] model forensic_data.fct_red_flag_report (table)
+13:31:14.940928 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+13:31:14.942142 [info ]:  Succeeded [  0.03s] model forensic_data.fct_narrative_drift (view)
+13:31:14.942212 [debug]: Finished analyzing [  0.02s] model forensic_data.fct_narrative_drift [success]
+13:31:14.943187 [info ]:  Succeeded [  0.03s] model forensic_data.int_forensic_metrics (view)
+13:31:14.943294 [debug]: Finished analyzing [  0.03s] model forensic_data.int_forensic_metrics [success]
+13:31:14.943504 [info ]: Started model forensic_data.fct_anomaly_detection
+13:31:14.943567 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+13:31:14.946584 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+13:31:14.946889 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+13:31:14.946948 [info ]: Finished rendering [  0.12s] (6 nodes, 0 skipped, 0 errors)
+13:31:14.947483 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+13:31:14.956904 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (view)
+13:31:14.957013 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_anomaly_detection [success]
+13:31:14.957028 [info ]: Finished analyzing [  0.12s] (6 nodes, 0 skipped, 0 errors)
+13:31:14.980138 [info ]: Cached model count updated: 7 models (accurate)
+13:31:23.232409 [info ]: Started loading project
+13:31:23.238381 [info ]: Loading profiles.yml
+13:31:23.280849 [info ]: Started parsing
+13:31:23.366496 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+13:31:23.367119 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+13:31:23.367293 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+13:31:23.367302 [info ]: Finished loading project [  0.13s]
+13:31:23.389875 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.01s]
+13:31:23.393040 [info ]: Finished parsing [  0.11s]
+13:31:23.395803 [info ]: Cached model count updated: 7 models (estimate)
+13:31:23.395852 [info ]: Cached model count updated: 7 models (accurate)
+13:31:23.396126 [info ]: Started scheduling
+13:31:23.400799 [info ]: Finished scheduling [  0.00s]
+13:31:23.401096 [debug]: Incremental compilation - 1 nodes selected: {"model.forensic_transform.rpt_boilerplate_offenders"}
+13:31:23.403123 [info ]: Started deferring state
+13:31:23.403266 [info ]: Finished deferring state [  0.00s]
+13:31:23.407054 [info ]: Started downloading schemas
+13:31:23.407614 [debug]:    Started downloading relations
+13:31:23.407881 [debug]:   Finished [  0.00s] downloading relations
+13:31:23.408059 [info ]: Finished downloading schemas [  0.00s]
+13:31:23.630874 [info ]: Started building task graph
+13:31:23.631539 [info ]: Finished building task graph [  0.00s]
+13:31:23.632491 [info ]: Started rendering (1 nodes)
+13:31:23.632660 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+13:31:23.632809 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+13:31:23.647244 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+13:31:23.647781 [debug]: Finished rendering [  0.01s] model forensic_data.rpt_boilerplate_offenders [success]
+13:31:23.647875 [info ]: Finished rendering [  0.02s] (1 nodes, 0 skipped, 0 errors)
+13:31:23.647948 [info ]: Started analyzing (1 nodes)
+13:31:23.647989 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+13:31:23.732066 [info ]:  Succeeded [  0.10s] model forensic_data.rpt_boilerplate_offenders (view)
+13:31:23.732249 [debug]: Finished analyzing [  0.08s] model forensic_data.rpt_boilerplate_offenders [success]
+13:31:23.732321 [info ]: Finished analyzing [  0.08s] (1 nodes, 0 skipped, 0 errors)
+13:31:23.742667 [info ]: Cached model count updated: 7 models (accurate)
+13:31:52.835499 [info ]: Started loading project
+13:31:52.836120 [info ]: Loading profiles.yml
+13:31:52.840483 [info ]: Started loading project
+13:31:52.840993 [info ]: Loading profiles.yml
+13:31:52.841112 [info ]: Finished loading project [  0.01s]
+13:31:52.859350 [debug]:    Started loading packages
+13:31:52.861359 [debug]:     Loaded [  0.00s] packages
+13:31:52.864505 [info ]: Started parsing
+13:31:50.058954 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+13:31:50.059282 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+13:31:50.059366 [info ]: Finished loading project [-------]
+13:31:50.059570 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+13:31:50.070610 [debug]: Finished parsing models/sources.yml [  0.00s]
+13:31:50.077964 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+13:31:50.079141 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+13:31:50.079781 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+13:31:50.080523 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+13:31:50.081427 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+13:31:50.082275 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+13:31:50.083071 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+13:31:50.091090 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+13:31:50.091855 [info ]: Finished parsing [-------]
+13:31:50.092352 [info ]: Cached model count updated: 8 models (estimate)
+13:31:50.092430 [info ]: Cached model count updated: 8 models (accurate)
+13:31:50.092501 [info ]: Started scheduling
+13:31:50.093113 [info ]: Finished scheduling [  0.00s]
+13:31:50.093204 [info ]: Started scheduling
+13:31:50.093299 [info ]: Finished scheduling [  0.00s]
+13:31:50.093553 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+13:31:50.095111 [info ]: Started deferring state
+13:31:50.095195 [info ]: Finished deferring state [  0.00s]
+13:31:50.096094 [info ]: Started downloading schemas
+13:31:50.096202 [debug]:    Started downloading relations
+13:31:50.096241 [debug]:   Finished [  0.00s] downloading relations
+13:31:50.096265 [info ]: Finished downloading schemas [  0.00s]
+13:31:50.363505 [info ]: Started building task graph
+13:31:50.364128 [info ]: Finished building task graph [  0.00s]
+13:31:50.364556 [info ]: Started rendering (7 nodes)
+13:31:50.364648 [info ]: Started model forensic_data.stg_sec_filings
+13:31:50.364676 [debug]: Started rendering model forensic_data.stg_sec_filings
+13:31:50.368092 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+13:31:50.368281 [info ]: Started analyzing (7 nodes)
+13:31:50.368328 [debug]: Started analyzing model forensic_data.stg_sec_filings
+13:31:50.368363 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+13:31:50.384265 [info ]:  Succeeded [  0.02s] model forensic_data.stg_sec_filings (view)
+13:31:50.384376 [debug]: Finished analyzing [  0.02s] model forensic_data.stg_sec_filings [success]
+13:31:50.384428 [info ]: Started model forensic_data.fct_narrative_drift
+13:31:50.384449 [debug]: Started rendering model forensic_data.fct_narrative_drift
+13:31:50.384688 [info ]: Started model forensic_data.fct_disclosure_density
+13:31:50.384795 [debug]: Started rendering model forensic_data.fct_disclosure_density
+13:31:50.384887 [info ]: Started model forensic_data.int_forensic_metrics
+13:31:50.384973 [debug]: Started rendering model forensic_data.int_forensic_metrics
+13:31:50.385771 [info ]: Started model forensic_data.fct_red_flag_report
+13:31:50.385840 [debug]: Started rendering model forensic_data.fct_red_flag_report
+13:31:50.388230 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+13:31:50.388424 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+13:31:50.388497 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+13:31:50.388560 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+13:31:50.391089 [debug]: Finished rendering [  0.01s] model forensic_data.fct_red_flag_report [success]
+13:31:50.391278 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+13:31:50.393761 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+13:31:50.394698 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+13:31:50.395891 [debug]: Finished rendering [  0.01s] model forensic_data.int_forensic_metrics [success]
+13:31:50.395970 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+13:31:50.396014 [debug]: Finished rendering [  0.01s] model forensic_data.fct_narrative_drift [success]
+13:31:50.396041 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+13:31:50.397300 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+13:31:50.397392 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+13:31:50.398491 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+13:31:50.398616 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+13:31:50.402744 [info ]:  Succeeded [  0.02s] model forensic_data.fct_narrative_drift (view)
+13:31:50.402859 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+13:31:50.402924 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+13:31:50.402952 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+13:31:50.405332 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+13:31:50.405493 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+13:31:50.405554 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+13:31:50.410001 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+13:31:50.410102 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+13:31:50.412016 [info ]:  Succeeded [  0.03s] model forensic_data.int_forensic_metrics (view)
+13:31:50.412106 [debug]: Finished analyzing [  0.02s] model forensic_data.int_forensic_metrics [success]
+13:31:50.412193 [info ]: Started model forensic_data.fct_anomaly_detection
+13:31:50.412222 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+13:31:50.414751 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+13:31:50.415102 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+13:31:50.415166 [info ]: Finished rendering [  0.05s] (7 nodes, 0 skipped, 0 errors)
+13:31:50.415204 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+13:31:50.421072 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (view)
+13:31:50.421150 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_anomaly_detection [success]
+13:31:50.421168 [info ]: Finished analyzing [  0.05s] (7 nodes, 0 skipped, 0 errors)
+13:31:50.431961 [info ]: Cached model count updated: 8 models (accurate)
+13:32:07.059995 [info ]: Started loading project
+13:32:07.061015 [info ]: Loading profiles.yml
+13:32:07.075078 [info ]: Started parsing
+13:32:07.155942 [error]: dbt1013: Invalid model definition `forensic_transform.intermediate.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 15 column 21
+  --> dbt_project.yml:15:21
+13:32:07.156209 [error]: dbt1013: Invalid model definition `forensic_transform.marts.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 17 column 21
+  --> dbt_project.yml:17:21
+13:32:07.156348 [info ]: Finished loading project [  0.10s]
+13:32:07.156405 [error]: dbt1013: Invalid model definition `forensic_transform.staging.materialized`: invalid type: string "view", expected struct ProjectModelConfig at line 13 column 21
+  --> dbt_project.yml:13:21
+13:32:07.165603 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+13:32:07.165674 [info ]: Finished parsing [  0.09s]
+13:32:07.167428 [info ]: Cached model count updated: 8 models (estimate)
+13:32:07.167484 [info ]: Cached model count updated: 8 models (accurate)
+13:32:07.167538 [info ]: Started scheduling
+13:32:07.167644 [info ]: Finished scheduling [  0.00s]
+13:32:07.167694 [debug]: Incremental compilation - 1 nodes selected: {"model.forensic_transform.rpt_sentiment_reversal"}
+13:32:07.168637 [info ]: Started deferring state
+13:32:07.168693 [info ]: Finished deferring state [  0.00s]
+13:32:07.169507 [info ]: Started downloading schemas
+13:32:07.169601 [debug]:    Started downloading relations
+13:32:07.169633 [debug]:   Finished [  0.00s] downloading relations
+13:32:07.169684 [info ]: Finished downloading schemas [  0.00s]
+13:32:07.381574 [info ]: Started building task graph
+13:32:07.381733 [info ]: Finished building task graph [  0.00s]
+13:32:07.381908 [info ]: Started rendering (1 nodes)
+13:32:07.381975 [info ]: Started model forensic_data.rpt_sentiment_reversal
+13:32:07.381992 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+13:32:07.384494 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+13:32:07.384653 [info ]: Started analyzing (1 nodes)
+13:32:07.384705 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+13:32:07.384763 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+13:32:07.384822 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:32:07.400129 [info ]:  Succeeded [  0.02s] model forensic_data.rpt_sentiment_reversal (view)
+13:32:07.400249 [debug]: Finished analyzing [  0.02s] model forensic_data.rpt_sentiment_reversal [success]
+13:32:07.400265 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+13:32:07.410099 [info ]: Cached model count updated: 8 models (accurate)
+13:50:14.455302 [info ]: Started loading project
+13:50:14.459404 [info ]: Loading profiles.yml
+13:50:14.472595 [info ]: Started loading project
+13:50:14.473132 [info ]: Loading profiles.yml
+13:50:14.473486 [info ]: Finished loading project [  0.02s]
+13:50:14.603430 [debug]:    Started loading packages
+13:50:14.606028 [debug]:     Loaded [  0.00s] packages
+13:50:14.608239 [info ]: Started parsing
+13:50:14.682081 [info ]: Finished loading project [  0.21s]
+13:50:14.689192 [debug]: Finished parsing models/sources.yml [  0.00s]
+13:50:14.695960 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+13:50:14.698811 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+13:50:14.700372 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+13:50:14.701785 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+13:50:14.703168 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+13:50:14.704989 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+13:50:14.706579 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+13:50:14.715452 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+13:50:14.716380 [info ]: Finished parsing [  0.11s]
+13:50:14.716938 [info ]: Cached model count updated: 8 models (estimate)
+13:50:14.716985 [info ]: Cached model count updated: 8 models (accurate)
+13:50:14.717263 [info ]: Started scheduling
+13:50:14.718087 [info ]: Finished scheduling [  0.00s]
+13:50:14.718202 [info ]: Started scheduling
+13:50:14.718288 [info ]: Finished scheduling [  0.00s]
+13:50:14.718757 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+13:50:14.720101 [info ]: Started deferring state
+13:50:14.720179 [info ]: Finished deferring state [  0.00s]
+13:50:14.722943 [info ]: Started downloading schemas
+13:50:14.723107 [debug]:    Started downloading relations
+13:50:14.723347 [debug]:   Finished [  0.00s] downloading relations
+13:50:14.723421 [info ]: Finished downloading schemas [  0.00s]
+13:50:14.946066 [info ]: Started building task graph
+13:50:14.946772 [info ]: Finished building task graph [  0.00s]
+13:50:14.947638 [info ]: Started rendering (8 nodes)
+13:50:14.947742 [info ]: Started model forensic_data.stg_sec_filings
+13:50:14.947873 [debug]: Started rendering model forensic_data.stg_sec_filings
+13:50:14.952557 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+13:50:14.954135 [debug]: Finished rendering [  0.01s] model forensic_data.stg_sec_filings [success]
+13:50:14.954265 [info ]: Started analyzing (8 nodes)
+13:50:14.954284 [debug]: Started analyzing model forensic_data.stg_sec_filings
+13:50:14.977573 [info ]:  Succeeded [  0.03s] model forensic_data.stg_sec_filings (view)
+13:50:14.977701 [debug]: Finished analyzing [  0.02s] model forensic_data.stg_sec_filings [success]
+13:50:14.977741 [info ]: Started model forensic_data.fct_narrative_drift
+13:50:14.977761 [debug]: Started rendering model forensic_data.fct_narrative_drift
+13:50:14.977967 [info ]: Started model forensic_data.int_forensic_metrics
+13:50:14.977981 [debug]: Started rendering model forensic_data.int_forensic_metrics
+13:50:14.977998 [info ]: Started model forensic_data.fct_red_flag_report
+13:50:14.978007 [debug]: Started rendering model forensic_data.fct_red_flag_report
+13:50:14.978037 [info ]: Started model forensic_data.fct_disclosure_density
+13:50:14.978052 [debug]: Started rendering model forensic_data.fct_disclosure_density
+13:50:14.981337 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+13:50:14.981403 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+13:50:14.981473 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+13:50:14.981533 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+13:50:14.982049 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+13:50:14.982274 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+13:50:14.982341 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+13:50:14.982362 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+13:50:14.982436 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+13:50:14.982478 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+13:50:14.982502 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+13:50:14.982544 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+13:50:14.988867 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+13:50:14.988977 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+13:50:14.989025 [info ]: Started model forensic_data.fct_anomaly_detection
+13:50:14.989045 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+13:50:14.989134 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+13:50:14.989191 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+13:50:14.989216 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+13:50:14.989229 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+13:50:14.989292 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+13:50:14.989345 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+13:50:14.989547 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+13:50:14.989684 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+13:50:14.991580 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+13:50:14.991729 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+13:50:14.991771 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+13:50:14.991842 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+13:50:14.991873 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+13:50:14.992055 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+13:50:14.995644 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+13:50:14.995765 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+13:50:14.996646 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+13:50:14.996799 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+13:50:14.996871 [info ]: Started model forensic_data.rpt_sentiment_reversal
+13:50:14.996892 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+13:50:14.999677 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+13:50:14.999861 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+13:50:14.999922 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+13:50:14.999949 [info ]: Finished rendering [  0.05s] (8 nodes, 0 skipped, 0 errors)
+13:50:15.004833 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+13:50:15.004919 [debug]: Finished analyzing [  0.01s] model forensic_data.rpt_sentiment_reversal [success]
+13:50:15.004934 [info ]: Finished analyzing [  0.05s] (8 nodes, 0 skipped, 0 errors)
+13:50:15.023876 [info ]: Cached model count updated: 8 models (accurate)
+13:50:15.111815 [info ]: Loading profiles.yml
+13:50:27.879557 [info ]: Started loading project
+13:50:27.880050 [info ]: Loading profiles.yml
+13:50:27.883670 [info ]: Started loading project
+13:50:27.884133 [info ]: Loading profiles.yml
+13:50:27.884267 [info ]: Finished loading project [  0.00s]
+13:50:27.902822 [debug]:    Started loading packages
+13:50:27.904668 [debug]:     Loaded [  0.00s] packages
+13:50:27.906640 [info ]: Started parsing
+13:50:27.958322 [info ]: Finished loading project [  0.07s]
+13:50:27.960443 [debug]: Finished parsing models/sources.yml [  0.00s]
+13:50:27.962764 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+13:50:27.964070 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+13:50:27.964933 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+13:50:27.966670 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+13:50:27.967771 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+13:50:27.969148 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+13:50:27.970549 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+13:50:27.980110 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+13:50:27.980884 [info ]: Finished parsing [  0.07s]
+13:50:27.981397 [info ]: Cached model count updated: 8 models (estimate)
+13:50:27.981548 [info ]: Cached model count updated: 8 models (accurate)
+13:50:27.981625 [info ]: Started scheduling
+13:50:27.981913 [info ]: Finished scheduling [  0.00s]
+13:50:27.981995 [info ]: Started scheduling
+13:50:27.982082 [info ]: Finished scheduling [  0.00s]
+13:50:27.982183 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+13:50:27.983252 [info ]: Started deferring state
+13:50:27.983345 [info ]: Finished deferring state [  0.00s]
+13:50:27.984514 [info ]: Started downloading schemas
+13:50:27.984610 [debug]:    Started downloading relations
+13:50:27.984645 [debug]:   Finished [  0.00s] downloading relations
+13:50:27.984665 [info ]: Finished downloading schemas [  0.00s]
+13:50:28.208990 [info ]: Started building task graph
+13:50:28.209248 [info ]: Finished building task graph [  0.00s]
+13:50:28.209622 [info ]: Started rendering (8 nodes)
+13:50:28.209688 [info ]: Started model forensic_data.stg_sec_filings
+13:50:28.209706 [debug]: Started rendering model forensic_data.stg_sec_filings
+13:50:28.211843 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+13:50:28.211992 [info ]: Started analyzing (8 nodes)
+13:50:28.212049 [debug]: Started analyzing model forensic_data.stg_sec_filings
+13:50:28.212134 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+13:50:28.225445 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+13:50:28.225556 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+13:50:28.225606 [info ]: Started model forensic_data.int_forensic_metrics
+13:50:28.225628 [debug]: Started rendering model forensic_data.int_forensic_metrics
+13:50:28.225758 [info ]: Started model forensic_data.fct_narrative_drift
+13:50:28.225871 [debug]: Started rendering model forensic_data.fct_narrative_drift
+13:50:28.225898 [info ]: Started model forensic_data.fct_red_flag_report
+13:50:28.225910 [debug]: Started rendering model forensic_data.fct_red_flag_report
+13:50:28.225929 [info ]: Started model forensic_data.fct_disclosure_density
+13:50:28.225944 [debug]: Started rendering model forensic_data.fct_disclosure_density
+13:50:28.229149 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+13:50:28.229200 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+13:50:28.229323 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+13:50:28.229397 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+13:50:28.233912 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+13:50:28.234665 [debug]: Finished rendering [  0.01s] model forensic_data.fct_narrative_drift [no-op]
+13:50:28.234760 [debug]: Finished rendering [  0.01s] model forensic_data.fct_disclosure_density [no-op]
+13:50:28.234825 [info ]: Finished analyzing [  0.02s] (8 nodes, 0 skipped, 0 errors)
+13:50:28.235110 [info ]:  Succeeded [  0.00s] model forensic_data.int_forensic_metrics (table)
+13:50:28.235263 [info ]:   Finished [  0.01s] model forensic_data.fct_narrative_drift (table)
+13:50:28.235281 [info ]:   Finished [  0.01s] model forensic_data.fct_red_flag_report (table)
+13:50:28.235297 [info ]:   Finished [  0.01s] model forensic_data.fct_disclosure_density (table)
+13:50:28.241756 [debug]: Finished rendering [  0.02s] model forensic_data.fct_red_flag_report [no-op]
+13:50:28.241910 [info ]: Finished rendering [  0.03s] (8 nodes, 0 skipped, 0 errors)
+13:50:28.423536 [info ]: Started loading project
+13:50:28.425214 [info ]: Loading profiles.yml
+13:50:28.446117 [debug]:    Started loading packages
+13:50:28.450835 [debug]:     Loaded [  0.00s] packages
+13:50:28.453692 [info ]: Started parsing
+13:50:28.564320 [info ]: Finished loading project [  0.14s]
+13:50:28.573694 [debug]: Finished parsing models/sources.yml [  0.00s]
+13:50:28.577594 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+13:50:28.578399 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+13:50:28.579342 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+13:50:28.580195 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+13:50:28.581152 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+13:50:28.582108 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+13:50:28.582903 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+13:50:28.589320 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+13:50:28.590525 [info ]: Finished parsing [  0.14s]
+13:50:28.591108 [info ]: Cached model count updated: 8 models (estimate)
+13:50:28.591168 [info ]: Cached model count updated: 8 models (accurate)
+13:50:28.591219 [info ]: Started scheduling
+13:50:28.591345 [info ]: Finished scheduling [  0.00s]
+13:50:28.591403 [info ]: Started scheduling
+13:50:28.591479 [info ]: Finished scheduling [  0.00s]
+13:50:28.591578 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+13:50:28.592723 [info ]: Started deferring state
+13:50:28.592797 [info ]: Finished deferring state [  0.00s]
+13:50:28.593641 [info ]: Started downloading schemas
+13:50:28.593745 [debug]:    Started downloading relations
+13:50:28.593857 [debug]:   Finished [  0.00s] downloading relations
+13:50:28.593920 [info ]: Finished downloading schemas [  0.00s]
+13:50:28.809857 [info ]: Started building task graph
+13:50:28.810192 [info ]: Finished building task graph [  0.00s]
+13:50:28.810520 [info ]: Started rendering (8 nodes)
+13:50:28.810588 [info ]: Started model forensic_data.stg_sec_filings
+13:50:28.810613 [debug]: Started rendering model forensic_data.stg_sec_filings
+13:50:28.814052 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+13:50:28.814247 [info ]: Started analyzing (8 nodes)
+13:50:28.814293 [debug]: Started analyzing model forensic_data.stg_sec_filings
+13:50:28.814317 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+13:50:28.824505 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+13:50:28.824607 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+13:50:28.824655 [info ]: Started model forensic_data.fct_narrative_drift
+13:50:28.824679 [debug]: Started rendering model forensic_data.fct_narrative_drift
+13:50:28.824769 [info ]: Started model forensic_data.fct_red_flag_report
+13:50:28.824827 [debug]: Started rendering model forensic_data.fct_red_flag_report
+13:50:28.824855 [info ]: Started model forensic_data.int_forensic_metrics
+13:50:28.824870 [debug]: Started rendering model forensic_data.int_forensic_metrics
+13:50:28.824908 [info ]: Started model forensic_data.fct_disclosure_density
+13:50:28.824977 [debug]: Started rendering model forensic_data.fct_disclosure_density
+13:50:28.827744 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+13:50:28.827851 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+13:50:28.827863 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+13:50:28.827872 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+13:50:28.827905 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+13:50:28.827927 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+13:50:28.827977 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+13:50:28.828074 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+13:50:28.828214 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+13:50:28.829955 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+13:50:28.830221 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+13:50:28.830424 [debug]: Finished rendering [  0.01s] model forensic_data.fct_red_flag_report [success]
+13:50:28.833419 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+13:50:28.833508 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+13:50:28.833552 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+13:50:28.833575 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+13:50:28.834535 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+13:50:28.834633 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+13:50:28.834918 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+13:50:28.835063 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+13:50:28.835195 [info ]: Started model forensic_data.fct_anomaly_detection
+13:50:28.835268 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+13:50:28.835883 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+13:50:28.835992 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+13:50:28.836168 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+13:50:28.837695 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+13:50:28.837900 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+13:50:28.838008 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+13:50:28.838080 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+13:50:28.838122 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+13:50:28.838706 [info ]:  Succeeded [  0.00s] model forensic_data.rpt_boilerplate_offenders (view)
+13:50:28.838787 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+13:50:28.843125 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+13:50:28.843253 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_anomaly_detection [success]
+13:50:28.843345 [info ]: Started model forensic_data.rpt_sentiment_reversal
+13:50:28.843380 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+13:50:28.845575 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+13:50:28.845724 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+13:50:28.845884 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+13:50:28.845934 [info ]: Finished rendering [  0.04s] (8 nodes, 0 skipped, 0 errors)
+13:50:28.849695 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+13:50:28.849910 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+13:50:28.849932 [info ]: Finished analyzing [  0.04s] (8 nodes, 0 skipped, 0 errors)
+13:50:28.855808 [info ]: Cached model count updated: 8 models (accurate)
+13:50:28.992412 [info ]: Loading profiles.yml
+14:03:41.560638 [info ]: Started loading project
+14:03:41.562545 [info ]: Loading profiles.yml
+14:03:41.570222 [info ]: Started loading project
+14:03:41.570951 [info ]: Loading profiles.yml
+14:03:41.571180 [info ]: Finished loading project [  0.01s]
+14:03:41.702823 [debug]:    Started loading packages
+14:03:41.704677 [debug]:     Loaded [  0.00s] packages
+14:03:41.706348 [info ]: Started parsing
+14:03:41.767415 [info ]: Finished loading project [  0.20s]
+14:03:41.771212 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:03:41.776725 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:03:41.779027 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:03:41.781412 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:03:41.783123 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:03:41.784365 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:03:41.785802 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:03:41.787335 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:03:41.795337 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:03:41.797179 [info ]: Finished parsing [  0.09s]
+14:03:41.797741 [info ]: Cached model count updated: 8 models (estimate)
+14:03:41.797796 [info ]: Cached model count updated: 8 models (accurate)
+14:03:41.797925 [info ]: Started scheduling
+14:03:41.798296 [info ]: Finished scheduling [  0.00s]
+14:03:41.798360 [info ]: Started scheduling
+14:03:41.798442 [info ]: Finished scheduling [  0.00s]
+14:03:41.798677 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:03:41.800983 [info ]: Started deferring state
+14:03:41.801051 [info ]: Finished deferring state [  0.00s]
+14:03:41.802672 [info ]: Started downloading schemas
+14:03:41.802903 [debug]:    Started downloading relations
+14:03:41.803228 [debug]:   Finished [  0.00s] downloading relations
+14:03:41.803296 [info ]: Finished downloading schemas [  0.00s]
+14:03:42.059650 [info ]: Started building task graph
+14:03:42.060507 [info ]: Finished building task graph [  0.00s]
+14:03:42.061090 [info ]: Started rendering (8 nodes)
+14:03:42.061154 [info ]: Started model forensic_data.stg_sec_filings
+14:03:42.061175 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:03:42.065091 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:03:42.065481 [info ]: Started analyzing (8 nodes)
+14:03:42.065562 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:03:42.065738 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:03:42.081796 [info ]:  Succeeded [  0.02s] model forensic_data.stg_sec_filings (view)
+14:03:42.081888 [debug]: Finished analyzing [  0.02s] model forensic_data.stg_sec_filings [success]
+14:03:42.081927 [info ]: Started model forensic_data.fct_red_flag_report
+14:03:42.081987 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:03:42.082119 [info ]: Started model forensic_data.fct_disclosure_density
+14:03:42.082162 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:03:42.082187 [info ]: Started model forensic_data.fct_narrative_drift
+14:03:42.082201 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:03:42.082225 [info ]: Started model forensic_data.int_forensic_metrics
+14:03:42.082239 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:03:42.086012 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:03:42.086114 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:03:42.086438 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:03:42.086482 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:03:42.086549 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:03:42.086594 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:03:42.086604 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:03:42.086684 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:03:42.086739 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:03:42.086781 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:03:42.086803 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:03:42.086815 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:03:42.094138 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:03:42.094244 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:03:42.094317 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:03:42.094376 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+14:03:42.094416 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:03:42.094449 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:03:42.094560 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:03:42.094634 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:03:42.094877 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:03:42.094964 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+14:03:42.095007 [info ]: Started model forensic_data.fct_anomaly_detection
+14:03:42.095081 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:03:42.096688 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:03:42.096796 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:03:42.097004 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:42.097238 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:03:42.097478 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:03:42.097480 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:03:42.099898 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:03:42.099976 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:42.101807 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:03:42.101924 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:03:42.102021 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:03:42.102096 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:03:42.105223 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:03:42.105492 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:03:42.105533 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:42.105569 [info ]: Finished rendering [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:03:42.111910 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:03:42.112041 [debug]: Finished analyzing [  0.01s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:42.112062 [info ]: Finished analyzing [  0.05s] (8 nodes, 0 skipped, 0 errors)
+14:03:42.128806 [info ]: Cached model count updated: 8 models (accurate)
+14:03:42.191921 [info ]: Loading profiles.yml
+14:03:43.107895 [info ]: Started loading project
+14:03:43.108418 [info ]: Loading profiles.yml
+14:03:43.114086 [info ]: Started loading project
+14:03:43.114590 [info ]: Loading profiles.yml
+14:03:43.114737 [info ]: Finished loading project [  0.01s]
+14:03:43.134901 [debug]:    Started loading packages
+14:03:43.137122 [debug]:     Loaded [  0.00s] packages
+14:03:43.139034 [info ]: Started parsing
+14:03:43.244290 [info ]: Finished loading project [  0.13s]
+14:03:43.252105 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:03:43.256317 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:03:43.257740 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:03:43.258927 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:03:43.260253 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:03:43.260937 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:03:43.261685 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:03:43.262663 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:03:43.270159 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:03:43.271298 [info ]: Finished parsing [  0.13s]
+14:03:43.272027 [info ]: Cached model count updated: 8 models (estimate)
+14:03:43.272093 [info ]: Cached model count updated: 8 models (accurate)
+14:03:43.272170 [info ]: Started scheduling
+14:03:43.272346 [info ]: Finished scheduling [  0.00s]
+14:03:43.272415 [info ]: Started scheduling
+14:03:43.272515 [info ]: Finished scheduling [  0.00s]
+14:03:43.272631 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:03:43.273784 [info ]: Started deferring state
+14:03:43.273865 [info ]: Finished deferring state [  0.00s]
+14:03:43.275188 [info ]: Started downloading schemas
+14:03:43.275355 [debug]:    Started downloading relations
+14:03:43.275429 [debug]:   Finished [  0.00s] downloading relations
+14:03:43.275507 [info ]: Finished downloading schemas [  0.00s]
+14:03:43.508050 [info ]: Started building task graph
+14:03:43.508360 [info ]: Finished building task graph [  0.00s]
+14:03:43.508682 [info ]: Started rendering (8 nodes)
+14:03:43.508751 [info ]: Started model forensic_data.stg_sec_filings
+14:03:43.508771 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:03:43.511882 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:03:43.512201 [info ]: Started analyzing (8 nodes)
+14:03:43.512204 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:03:43.512296 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:03:43.524953 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+14:03:43.525067 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+14:03:43.525117 [info ]: Started model forensic_data.int_forensic_metrics
+14:03:43.525186 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:03:43.525310 [info ]: Started model forensic_data.fct_red_flag_report
+14:03:43.525357 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:03:43.525383 [info ]: Started model forensic_data.fct_disclosure_density
+14:03:43.525404 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:03:43.525426 [info ]: Started model forensic_data.fct_narrative_drift
+14:03:43.525478 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:03:43.527806 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:03:43.527896 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:03:43.527955 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:03:43.528029 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:03:43.528042 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:03:43.528039 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:03:43.528073 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:03:43.528103 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:03:43.528104 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:03:43.528691 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:03:43.529405 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:03:43.529497 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:03:43.533520 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:03:43.533689 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+14:03:43.533771 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:03:43.533802 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:03:43.535397 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:03:43.535542 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:03:43.536349 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:03:43.536448 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+14:03:43.536501 [info ]: Started model forensic_data.fct_anomaly_detection
+14:03:43.536561 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:03:43.536608 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:03:43.536630 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:03:43.538131 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:03:43.538402 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:03:43.538443 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:43.539942 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:03:43.540093 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:03:43.540171 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:03:43.542080 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:03:43.542168 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:43.544137 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:03:43.544233 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:03:43.544277 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:03:43.544293 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:03:43.547989 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:03:43.548158 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:03:43.548234 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:43.548290 [info ]: Finished rendering [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:03:43.552161 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:03:43.552255 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:43.552273 [info ]: Finished analyzing [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:03:43.562518 [info ]: Cached model count updated: 8 models (accurate)
+14:03:44.348787 [info ]: Loading profiles.yml
+14:03:54.259778 [info ]: Started loading project
+14:03:54.260311 [info ]: Loading profiles.yml
+14:03:54.268181 [info ]: Started loading project
+14:03:54.268834 [info ]: Loading profiles.yml
+14:03:54.268962 [info ]: Finished loading project [  0.01s]
+14:03:54.288508 [debug]:    Started loading packages
+14:03:54.290637 [debug]:     Loaded [  0.00s] packages
+14:03:54.292051 [info ]: Started parsing
+14:03:54.405176 [info ]: Finished loading project [  0.14s]
+14:03:54.414954 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:03:54.418152 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:03:54.419061 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:03:54.419753 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:03:54.420604 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:03:54.421225 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:03:54.421958 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:03:54.422684 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:03:54.431829 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:03:54.432663 [info ]: Finished parsing [  0.14s]
+14:03:54.433248 [info ]: Cached model count updated: 8 models (estimate)
+14:03:54.433321 [info ]: Cached model count updated: 8 models (accurate)
+14:03:54.433375 [info ]: Started scheduling
+14:03:54.433597 [info ]: Finished scheduling [  0.00s]
+14:03:54.433685 [info ]: Started scheduling
+14:03:54.433808 [info ]: Finished scheduling [  0.00s]
+14:03:54.433945 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:03:54.435312 [info ]: Started deferring state
+14:03:54.435387 [info ]: Finished deferring state [  0.00s]
+14:03:54.436695 [info ]: Started downloading schemas
+14:03:54.436863 [debug]:    Started downloading relations
+14:03:54.436911 [debug]:   Finished [  0.00s] downloading relations
+14:03:54.436986 [info ]: Finished downloading schemas [  0.00s]
+14:03:54.704312 [info ]: Started building task graph
+14:03:54.704542 [info ]: Finished building task graph [  0.00s]
+14:03:54.704859 [info ]: Started rendering (8 nodes)
+14:03:54.704934 [info ]: Started model forensic_data.stg_sec_filings
+14:03:54.704952 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:03:54.707311 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:03:54.707490 [info ]: Started analyzing (8 nodes)
+14:03:54.707505 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:03:54.707609 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:03:54.718617 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+14:03:54.718706 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+14:03:54.718751 [info ]: Started model forensic_data.fct_disclosure_density
+14:03:54.718766 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:03:54.718907 [info ]: Started model forensic_data.fct_narrative_drift
+14:03:54.718959 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:03:54.718981 [info ]: Started model forensic_data.int_forensic_metrics
+14:03:54.718990 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:03:54.719003 [info ]: Started model forensic_data.fct_red_flag_report
+14:03:54.719013 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:03:54.722606 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:03:54.722611 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:03:54.722871 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:03:54.722952 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:03:54.722956 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:03:54.722972 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:03:54.723007 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:03:54.723105 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:03:54.723177 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:03:54.724187 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:03:54.724317 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:03:54.724482 [debug]: Finished rendering [  0.01s] model forensic_data.fct_narrative_drift [success]
+14:03:54.728555 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:03:54.728681 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:03:54.728742 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:03:54.728817 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:03:54.729470 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:03:54.729560 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:03:54.729594 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:03:54.729616 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:03:54.729643 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:03:54.729663 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+14:03:54.729692 [info ]: Started model forensic_data.fct_anomaly_detection
+14:03:54.729709 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:03:54.731023 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:03:54.731158 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:03:54.731315 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:54.731904 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:03:54.732025 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:03:54.732144 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:03:54.734177 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:03:54.734326 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:54.736886 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:03:54.737039 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_anomaly_detection [success]
+14:03:54.737089 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:03:54.737108 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:03:54.739601 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:03:54.739787 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:03:54.739857 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:54.739887 [info ]: Finished rendering [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:03:54.744020 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:03:54.744126 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:54.744145 [info ]: Finished analyzing [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:03:54.752929 [info ]: Cached model count updated: 8 models (accurate)
+14:03:54.822541 [info ]: Loading profiles.yml
+14:03:55.132965 [info ]: Started loading project
+14:03:55.133429 [info ]: Loading profiles.yml
+14:03:55.137175 [info ]: Started loading project
+14:03:55.137619 [info ]: Loading profiles.yml
+14:03:55.137742 [info ]: Finished loading project [  0.00s]
+14:03:55.154217 [debug]:    Started loading packages
+14:03:55.155759 [debug]:     Loaded [  0.00s] packages
+14:03:55.157049 [info ]: Started parsing
+14:03:55.225884 [info ]: Finished loading project [  0.09s]
+14:03:55.230459 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:03:55.235400 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:03:55.236765 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:03:55.237673 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:03:55.238838 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:03:55.239629 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:03:55.240706 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:03:55.241802 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:03:55.249126 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:03:55.249981 [info ]: Finished parsing [  0.09s]
+14:03:55.250546 [info ]: Cached model count updated: 8 models (estimate)
+14:03:55.250607 [info ]: Cached model count updated: 8 models (accurate)
+14:03:55.250674 [info ]: Started scheduling
+14:03:55.250881 [info ]: Finished scheduling [  0.00s]
+14:03:55.250952 [info ]: Started scheduling
+14:03:55.251067 [info ]: Finished scheduling [  0.00s]
+14:03:55.251228 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:03:55.252663 [info ]: Started deferring state
+14:03:55.252759 [info ]: Finished deferring state [  0.00s]
+14:03:55.253910 [info ]: Started downloading schemas
+14:03:55.254016 [debug]:    Started downloading relations
+14:03:55.254053 [debug]:   Finished [  0.00s] downloading relations
+14:03:55.254074 [info ]: Finished downloading schemas [  0.00s]
+14:03:55.514849 [info ]: Started building task graph
+14:03:55.515082 [info ]: Finished building task graph [  0.00s]
+14:03:55.632590 [info ]: Started loading project
+14:03:55.633131 [info ]: Loading profiles.yml
+14:03:55.651028 [debug]:    Started loading packages
+14:03:55.652736 [debug]:     Loaded [  0.00s] packages
+14:03:55.654189 [info ]: Started parsing
+14:03:55.708614 [info ]: Finished loading project [  0.08s]
+14:03:55.711747 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:03:55.714319 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:03:55.715215 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:03:55.715899 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:03:55.716647 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:03:55.717296 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:03:55.718600 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:03:55.719838 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:03:55.727963 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:03:55.731136 [info ]: Finished parsing [  0.08s]
+14:03:55.731573 [info ]: Cached model count updated: 8 models (estimate)
+14:03:55.731624 [info ]: Cached model count updated: 8 models (accurate)
+14:03:55.731671 [info ]: Started scheduling
+14:03:55.731796 [info ]: Finished scheduling [  0.00s]
+14:03:55.731868 [info ]: Started scheduling
+14:03:55.731946 [info ]: Finished scheduling [  0.00s]
+14:03:55.732098 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:03:55.733171 [info ]: Started deferring state
+14:03:55.733226 [info ]: Finished deferring state [  0.00s]
+14:03:55.734071 [info ]: Started downloading schemas
+14:03:55.734160 [debug]:    Started downloading relations
+14:03:55.734195 [debug]:   Finished [  0.00s] downloading relations
+14:03:55.734215 [info ]: Finished downloading schemas [  0.00s]
+14:03:55.988217 [info ]: Started building task graph
+14:03:55.988464 [info ]: Finished building task graph [  0.00s]
+14:03:55.988716 [info ]: Started rendering (8 nodes)
+14:03:55.988775 [info ]: Started model forensic_data.stg_sec_filings
+14:03:55.988820 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:03:55.991516 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:03:55.991671 [info ]: Started analyzing (8 nodes)
+14:03:55.991695 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:03:55.991759 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:03:56.006485 [info ]:  Succeeded [  0.02s] model forensic_data.stg_sec_filings (view)
+14:03:56.006572 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+14:03:56.006624 [info ]: Started model forensic_data.fct_disclosure_density
+14:03:56.006646 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:03:56.006778 [info ]: Started model forensic_data.int_forensic_metrics
+14:03:56.006840 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:03:56.006875 [info ]: Started model forensic_data.fct_narrative_drift
+14:03:56.006891 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:03:56.006913 [info ]: Started model forensic_data.fct_red_flag_report
+14:03:56.006971 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:03:56.009618 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:03:56.009509 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:03:56.009648 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:03:56.009734 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:03:56.009889 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:03:56.009943 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:03:56.009979 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:03:56.009996 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:03:56.010038 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:03:56.010063 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:03:56.010139 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:03:56.010166 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:03:56.016432 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:03:56.016586 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+14:03:56.016702 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:03:56.016788 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:03:56.016954 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:03:56.017180 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+14:03:56.017224 [info ]: Started model forensic_data.fct_anomaly_detection
+14:03:56.017291 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:03:56.019006 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:03:56.019136 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:03:56.019319 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:03:56.019415 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:03:56.019536 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:03:56.019601 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:03:56.019699 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:03:56.019749 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:03:56.019773 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:56.019797 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:03:56.026154 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:03:56.026355 [debug]: Finished analyzing [  0.01s] model forensic_data.rpt_boilerplate_offenders [success]
+14:03:56.027727 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:03:56.027811 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_anomaly_detection [success]
+14:03:56.027875 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:03:56.027892 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:03:56.030471 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:03:56.030651 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:03:56.030704 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:56.030731 [info ]: Finished rendering [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:03:56.034797 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:03:56.034928 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:03:56.034951 [info ]: Finished analyzing [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:03:56.043032 [info ]: Cached model count updated: 8 models (accurate)
+14:03:56.121303 [info ]: Loading profiles.yml
+14:09:35.820019 [info ]: Started loading project
+14:09:35.820843 [info ]: Loading profiles.yml
+14:09:35.827042 [info ]: Started loading project
+14:09:35.827485 [info ]: Loading profiles.yml
+14:09:35.827620 [info ]: Finished loading project [  0.01s]
+14:09:35.845653 [debug]:    Started loading packages
+14:09:35.847555 [debug]:     Loaded [  0.00s] packages
+14:09:35.848929 [info ]: Started parsing
+14:09:35.949631 [info ]: Finished loading project [  0.12s]
+14:09:35.956059 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:09:35.959724 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:09:35.960541 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:09:35.961267 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:09:35.962893 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:09:35.964009 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:09:35.965098 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:09:35.965996 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:09:35.972894 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:09:35.973807 [info ]: Finished parsing [  0.12s]
+14:09:35.974392 [info ]: Cached model count updated: 8 models (estimate)
+14:09:35.974469 [info ]: Cached model count updated: 8 models (accurate)
+14:09:35.974554 [info ]: Started scheduling
+14:09:35.974932 [info ]: Finished scheduling [  0.00s]
+14:09:35.975017 [info ]: Started scheduling
+14:09:35.975110 [info ]: Finished scheduling [  0.00s]
+14:09:35.975260 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:09:35.976578 [info ]: Started deferring state
+14:09:35.976637 [info ]: Finished deferring state [  0.00s]
+14:09:35.977977 [info ]: Started downloading schemas
+14:09:35.978075 [debug]:    Started downloading relations
+14:09:35.978113 [debug]:   Finished [  0.00s] downloading relations
+14:09:35.978133 [info ]: Finished downloading schemas [  0.00s]
+14:09:36.194492 [info ]: Started building task graph
+14:09:36.194816 [info ]: Finished building task graph [  0.00s]
+14:09:36.195153 [info ]: Started rendering (8 nodes)
+14:09:36.195217 [info ]: Started model forensic_data.stg_sec_filings
+14:09:36.195239 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:09:36.197451 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:09:36.197633 [info ]: Started analyzing (8 nodes)
+14:09:36.197696 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:09:36.197718 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:09:36.211600 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+14:09:36.211691 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+14:09:36.211731 [info ]: Started model forensic_data.fct_narrative_drift
+14:09:36.211746 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:09:36.211837 [info ]: Started model forensic_data.int_forensic_metrics
+14:09:36.211876 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:09:36.211897 [info ]: Started model forensic_data.fct_red_flag_report
+14:09:36.211906 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:09:36.211924 [info ]: Started model forensic_data.fct_disclosure_density
+14:09:36.211935 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:09:36.214774 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:09:36.215473 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:09:36.215410 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:09:36.215728 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:09:36.215770 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:09:36.215823 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:09:36.215866 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:09:36.215915 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:09:36.216080 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:09:36.215932 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:09:36.216410 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:09:36.216482 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:09:36.221789 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:09:36.221900 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+14:09:36.221949 [info ]: Started model forensic_data.fct_anomaly_detection
+14:09:36.222022 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:09:36.222088 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:09:36.222155 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+14:09:36.222188 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:09:36.222249 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:09:36.224312 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:09:36.224400 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:09:36.224433 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:09:36.224518 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:09:36.224567 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:09:36.224553 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:09:36.224966 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:09:36.225087 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:09:36.225155 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:09:36.225252 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:09:36.228451 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:09:36.228538 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:09:36.228672 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:09:36.228746 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:09:36.228785 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:09:36.228831 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:09:36.230955 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:09:36.231086 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:09:36.231239 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:09:36.231287 [info ]: Finished rendering [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:09:36.235043 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:09:36.235144 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:09:36.235160 [info ]: Finished analyzing [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:09:36.244888 [info ]: Cached model count updated: 8 models (accurate)
+14:09:36.380306 [info ]: Loading profiles.yml
+14:09:37.419699 [info ]: Started loading project
+14:09:37.420189 [info ]: Loading profiles.yml
+14:09:37.425781 [info ]: Started loading project
+14:09:37.426271 [info ]: Loading profiles.yml
+14:09:37.426406 [info ]: Finished loading project [  0.01s]
+14:09:37.442802 [debug]:    Started loading packages
+14:09:37.444557 [debug]:     Loaded [  0.00s] packages
+14:09:37.446180 [info ]: Started parsing
+14:09:37.558021 [info ]: Finished loading project [  0.13s]
+14:09:37.567879 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:09:37.570876 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:09:37.571668 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:09:37.572366 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:09:37.573102 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:09:37.573811 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:09:37.574779 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:09:37.575810 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:09:37.582780 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:09:37.584104 [info ]: Finished parsing [  0.14s]
+14:09:37.584637 [info ]: Cached model count updated: 8 models (estimate)
+14:09:37.584692 [info ]: Cached model count updated: 8 models (accurate)
+14:09:37.584749 [info ]: Started scheduling
+14:09:37.584920 [info ]: Finished scheduling [  0.00s]
+14:09:37.584998 [info ]: Started scheduling
+14:09:37.585085 [info ]: Finished scheduling [  0.00s]
+14:09:37.585263 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:09:37.586537 [info ]: Started deferring state
+14:09:37.586591 [info ]: Finished deferring state [  0.00s]
+14:09:37.587415 [info ]: Started downloading schemas
+14:09:37.587507 [debug]:    Started downloading relations
+14:09:37.587544 [debug]:   Finished [  0.00s] downloading relations
+14:09:37.587571 [info ]: Finished downloading schemas [  0.00s]
+14:09:37.803019 [info ]: Started building task graph
+14:09:37.803246 [info ]: Finished building task graph [  0.00s]
+14:09:37.803488 [info ]: Started rendering (8 nodes)
+14:09:37.803548 [info ]: Started model forensic_data.stg_sec_filings
+14:09:37.803566 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:09:37.805884 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:09:37.806109 [info ]: Started analyzing (8 nodes)
+14:09:37.806161 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:09:37.806173 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:09:37.816958 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+14:09:37.817064 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+14:09:37.817107 [info ]: Started model forensic_data.fct_red_flag_report
+14:09:37.817124 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:09:37.817287 [info ]: Started model forensic_data.fct_disclosure_density
+14:09:37.817329 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:09:37.817372 [info ]: Started model forensic_data.int_forensic_metrics
+14:09:37.817394 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:09:37.817410 [info ]: Started model forensic_data.fct_narrative_drift
+14:09:37.817424 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:09:37.819436 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:09:37.819640 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:09:37.819596 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:09:37.819729 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:09:37.819761 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:09:37.819779 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:09:37.819850 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:09:37.819867 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:09:37.819941 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:09:37.820005 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:09:37.820076 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:09:37.820135 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:09:37.824261 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:09:37.824396 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:09:37.824446 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:09:37.824510 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:09:37.824545 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:09:37.824605 [debug]: Finished analyzing [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:09:37.824628 [info ]: Started model forensic_data.fct_anomaly_detection
+14:09:37.824643 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:09:37.825583 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:09:37.825661 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:09:37.825690 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:09:37.825708 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:09:37.826700 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:09:37.826761 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:09:37.826853 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:09:37.826874 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:09:37.826919 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:09:37.826940 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:09:37.829961 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:09:37.830063 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:09:37.831771 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:09:37.832012 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_anomaly_detection [success]
+14:09:37.832117 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:09:37.832214 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:09:37.835869 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:09:37.836157 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:09:37.836175 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:09:37.836251 [info ]: Finished rendering [  0.03s] (8 nodes, 0 skipped, 0 errors)
+14:09:37.840031 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:09:37.840141 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:09:37.840157 [info ]: Finished analyzing [  0.03s] (8 nodes, 0 skipped, 0 errors)
+14:09:37.848863 [info ]: Cached model count updated: 8 models (accurate)
+14:09:38.416817 [info ]: Loading profiles.yml
+14:10:00.644307 [info ]: Started loading project
+14:10:00.644819 [info ]: Loading profiles.yml
+14:10:00.648975 [info ]: Started loading project
+14:10:00.649511 [info ]: Loading profiles.yml
+14:10:00.649640 [info ]: Finished loading project [  0.01s]
+14:10:00.668040 [debug]:    Started loading packages
+14:10:00.669710 [debug]:     Loaded [  0.00s] packages
+14:10:00.671121 [info ]: Started parsing
+14:10:00.741498 [info ]: Finished loading project [  0.09s]
+14:10:00.746671 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:10:00.750560 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:10:00.751534 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:10:00.752189 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:10:00.753030 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:10:00.753621 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:10:00.754417 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:10:00.755840 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:10:00.762679 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:10:00.763308 [info ]: Finished parsing [  0.09s]
+14:10:00.763898 [info ]: Cached model count updated: 8 models (estimate)
+14:10:00.763976 [info ]: Cached model count updated: 8 models (accurate)
+14:10:00.764037 [info ]: Started scheduling
+14:10:00.764202 [info ]: Finished scheduling [  0.00s]
+14:10:00.764282 [info ]: Started scheduling
+14:10:00.764487 [info ]: Finished scheduling [  0.00s]
+14:10:00.764623 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:10:00.765571 [info ]: Started deferring state
+14:10:00.765622 [info ]: Finished deferring state [  0.00s]
+14:10:00.766422 [info ]: Started downloading schemas
+14:10:00.766516 [debug]:    Started downloading relations
+14:10:00.766550 [debug]:   Finished [  0.00s] downloading relations
+14:10:00.766569 [info ]: Finished downloading schemas [  0.00s]
+14:10:00.981446 [info ]: Started building task graph
+14:10:00.981705 [info ]: Finished building task graph [  0.00s]
+14:10:00.981966 [info ]: Started rendering (8 nodes)
+14:10:00.982025 [info ]: Started model forensic_data.stg_sec_filings
+14:10:00.982042 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:10:00.984745 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:10:00.985104 [info ]: Started analyzing (8 nodes)
+14:10:00.985139 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:10:00.985178 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:10:00.996200 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+14:10:00.996292 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+14:10:00.996334 [info ]: Started model forensic_data.fct_red_flag_report
+14:10:00.996350 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:10:00.996425 [info ]: Started model forensic_data.fct_narrative_drift
+14:10:00.996468 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:10:00.996489 [info ]: Started model forensic_data.int_forensic_metrics
+14:10:00.996499 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:10:00.996514 [info ]: Started model forensic_data.fct_disclosure_density
+14:10:00.996524 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:10:00.999015 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:10:00.999166 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:10:00.999265 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:10:00.999363 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:10:00.999390 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:10:00.999501 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:10:00.999703 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:10:00.999897 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:10:00.999965 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:10:01.000204 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:10:01.000327 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:10:01.000461 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:10:01.005650 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:10:01.005787 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_narrative_drift [success]
+14:10:01.005849 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:10:01.005917 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:10:01.006009 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:10:01.006038 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:10:01.006080 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:10:01.006103 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+14:10:01.006132 [info ]: Started model forensic_data.fct_anomaly_detection
+14:10:01.006178 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:10:01.006508 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:10:01.006601 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:10:01.008657 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:10:01.008750 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:10:01.008874 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:10:01.008915 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:10:01.008976 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:10:01.009007 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:10:01.013706 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:10:01.013827 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:10:01.015094 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:10:01.015206 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_anomaly_detection [success]
+14:10:01.015276 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:10:01.015305 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:10:01.017931 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:10:01.018156 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:10:01.018235 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:10:01.018269 [info ]: Finished rendering [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:10:01.022405 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:10:01.022510 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:10:01.022528 [info ]: Finished analyzing [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:10:01.030983 [info ]: Cached model count updated: 8 models (accurate)
+14:10:01.214413 [info ]: Loading profiles.yml
+14:10:01.257428 [info ]: Started loading project
+14:10:01.258546 [info ]: Loading profiles.yml
+14:10:01.264535 [info ]: Started loading project
+14:10:01.264997 [info ]: Loading profiles.yml
+14:10:01.265220 [info ]: Finished loading project [  0.01s]
+14:10:01.282382 [debug]:    Started loading packages
+14:10:01.284215 [debug]:     Loaded [  0.00s] packages
+14:10:01.285617 [info ]: Started parsing
+14:10:01.369388 [info ]: Finished loading project [  0.10s]
+14:10:01.377772 [debug]: Finished parsing models/sources.yml [  0.00s]
+14:10:01.382237 [debug]: Finished parsing models/marts/fct_anomaly_detection.sql [  0.00s]
+14:10:01.383108 [debug]: Finished parsing models/marts/fct_disclosure_density.sql [  0.00s]
+14:10:01.383741 [debug]: Finished parsing models/marts/fct_narrative_drift.sql [  0.00s]
+14:10:01.384567 [debug]: Finished parsing models/marts/fct_red_flag_report.sql [  0.00s]
+14:10:01.385134 [debug]: Finished parsing models/marts/intermediate/int_forensic_metrics.sql [  0.00s]
+14:10:01.385957 [debug]: Finished parsing models/marts/rpt_boilerplate_offenders.sql [  0.00s]
+14:10:01.386884 [debug]: Finished parsing models/marts/rpt_sentiment_reversal.sql [  0.00s]
+14:10:01.394600 [debug]: Finished parsing models/staging/stg_sec_filings.sql [  0.01s]
+14:10:01.395431 [info ]: Finished parsing [  0.11s]
+14:10:01.395855 [info ]: Cached model count updated: 8 models (estimate)
+14:10:01.395902 [info ]: Cached model count updated: 8 models (accurate)
+14:10:01.395945 [info ]: Started scheduling
+14:10:01.396074 [info ]: Finished scheduling [  0.00s]
+14:10:01.396134 [info ]: Started scheduling
+14:10:01.396239 [info ]: Finished scheduling [  0.00s]
+14:10:01.396372 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "forensic-accounting-bot", schema: "forensic_data", table: "raw_filings" }) and interval: None
+14:10:01.397328 [info ]: Started deferring state
+14:10:01.397388 [info ]: Finished deferring state [  0.00s]
+14:10:01.398203 [info ]: Started downloading schemas
+14:10:01.398300 [debug]:    Started downloading relations
+14:10:01.398339 [debug]:   Finished [  0.00s] downloading relations
+14:10:01.398390 [info ]: Finished downloading schemas [  0.00s]
+14:10:01.691833 [info ]: Started building task graph
+14:10:01.692153 [info ]: Finished building task graph [  0.00s]
+14:10:01.692419 [info ]: Started rendering (8 nodes)
+14:10:01.692478 [info ]: Started model forensic_data.stg_sec_filings
+14:10:01.692498 [debug]: Started rendering model forensic_data.stg_sec_filings
+14:10:01.694706 [debug]: Compiled SQL for node model.forensic_transform.stg_sec_filings at target/.lsp/compiled/models/staging/stg_sec_filings.sql
+14:10:01.694967 [info ]: Started analyzing (8 nodes)
+14:10:01.695035 [debug]: Started analyzing model forensic_data.stg_sec_filings
+14:10:01.695111 [debug]: Finished rendering [  0.00s] model forensic_data.stg_sec_filings [success]
+14:10:01.706865 [info ]:  Succeeded [  0.01s] model forensic_data.stg_sec_filings (view)
+14:10:01.707000 [debug]: Finished analyzing [  0.01s] model forensic_data.stg_sec_filings [success]
+14:10:01.707075 [info ]: Started model forensic_data.int_forensic_metrics
+14:10:01.707118 [debug]: Started rendering model forensic_data.int_forensic_metrics
+14:10:01.707228 [info ]: Started model forensic_data.fct_red_flag_report
+14:10:01.707286 [debug]: Started rendering model forensic_data.fct_red_flag_report
+14:10:01.707316 [info ]: Started model forensic_data.fct_narrative_drift
+14:10:01.707330 [debug]: Started rendering model forensic_data.fct_narrative_drift
+14:10:01.707351 [info ]: Started model forensic_data.fct_disclosure_density
+14:10:01.707370 [debug]: Started rendering model forensic_data.fct_disclosure_density
+14:10:01.710181 [debug]: Compiled SQL for node model.forensic_transform.int_forensic_metrics at target/.lsp/compiled/models/marts/intermediate/int_forensic_metrics.sql
+14:10:01.710249 [debug]: Compiled SQL for node model.forensic_transform.fct_narrative_drift at target/.lsp/compiled/models/marts/fct_narrative_drift.sql
+14:10:01.710378 [debug]: Compiled SQL for node model.forensic_transform.fct_red_flag_report at target/.lsp/compiled/models/marts/fct_red_flag_report.sql
+14:10:01.710384 [debug]: Started analyzing model forensic_data.int_forensic_metrics
+14:10:01.710484 [debug]: Finished rendering [  0.00s] model forensic_data.int_forensic_metrics [success]
+14:10:01.710507 [debug]: Finished rendering [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:10:01.710677 [debug]: Started analyzing model forensic_data.fct_narrative_drift
+14:10:01.710835 [debug]: Finished rendering [  0.00s] model forensic_data.fct_red_flag_report [success]
+14:10:01.710890 [debug]: Started analyzing model forensic_data.fct_red_flag_report
+14:10:01.711071 [debug]: Compiled SQL for node model.forensic_transform.fct_disclosure_density at target/.lsp/compiled/models/marts/fct_disclosure_density.sql
+14:10:01.711199 [debug]: Started analyzing model forensic_data.fct_disclosure_density
+14:10:01.711293 [debug]: Finished rendering [  0.00s] model forensic_data.fct_disclosure_density [success]
+14:10:01.715241 [info ]:  Succeeded [  0.01s] model forensic_data.fct_narrative_drift (table)
+14:10:01.715354 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_narrative_drift [success]
+14:10:01.715397 [info ]: Started model forensic_data.rpt_boilerplate_offenders
+14:10:01.715441 [debug]: Started rendering model forensic_data.rpt_boilerplate_offenders
+14:10:01.716247 [info ]:  Succeeded [  0.01s] model forensic_data.fct_red_flag_report (table)
+14:10:01.716342 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_red_flag_report [success]
+14:10:01.716713 [info ]:  Succeeded [  0.01s] model forensic_data.int_forensic_metrics (table)
+14:10:01.716933 [debug]: Finished analyzing [  0.01s] model forensic_data.int_forensic_metrics [success]
+14:10:01.716991 [info ]: Started model forensic_data.fct_anomaly_detection
+14:10:01.717030 [debug]: Started rendering model forensic_data.fct_anomaly_detection
+14:10:01.718318 [debug]: Compiled SQL for node model.forensic_transform.rpt_boilerplate_offenders at target/.lsp/compiled/models/marts/rpt_boilerplate_offenders.sql
+14:10:01.718336 [info ]:  Succeeded [  0.01s] model forensic_data.fct_disclosure_density (table)
+14:10:01.718452 [debug]: Finished analyzing [  0.01s] model forensic_data.fct_disclosure_density [success]
+14:10:01.718630 [debug]: Started analyzing model forensic_data.rpt_boilerplate_offenders
+14:10:01.718833 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:10:01.719659 [debug]: Compiled SQL for node model.forensic_transform.fct_anomaly_detection at target/.lsp/compiled/models/marts/fct_anomaly_detection.sql
+14:10:01.719832 [debug]: Started analyzing model forensic_data.fct_anomaly_detection
+14:10:01.719969 [debug]: Finished rendering [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:10:01.722436 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_boilerplate_offenders (view)
+14:10:01.722622 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_boilerplate_offenders [success]
+14:10:01.724173 [info ]:  Succeeded [  0.01s] model forensic_data.fct_anomaly_detection (table)
+14:10:01.724266 [debug]: Finished analyzing [  0.00s] model forensic_data.fct_anomaly_detection [success]
+14:10:01.724315 [info ]: Started model forensic_data.rpt_sentiment_reversal
+14:10:01.724331 [debug]: Started rendering model forensic_data.rpt_sentiment_reversal
+14:10:01.726447 [debug]: Compiled SQL for node model.forensic_transform.rpt_sentiment_reversal at target/.lsp/compiled/models/marts/rpt_sentiment_reversal.sql
+14:10:01.726567 [debug]: Started analyzing model forensic_data.rpt_sentiment_reversal
+14:10:01.726748 [debug]: Finished rendering [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:10:01.726793 [info ]: Finished rendering [  0.03s] (8 nodes, 0 skipped, 0 errors)
+14:10:01.730107 [info ]:  Succeeded [  0.01s] model forensic_data.rpt_sentiment_reversal (view)
+14:10:01.730214 [debug]: Finished analyzing [  0.00s] model forensic_data.rpt_sentiment_reversal [success]
+14:10:01.730254 [info ]: Finished analyzing [  0.04s] (8 nodes, 0 skipped, 0 errors)
+14:10:01.739177 [info ]: Cached model count updated: 8 models (accurate)

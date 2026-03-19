@@ -1,0 +1,32 @@
+# --- Orchestration ---
+dagster==1.12.19
+dagster-webserver==1.12.19
+dagster-graphql==1.12.19
+graphene>=3.2,<4
+
+# --- Extraction & Database ---
+requests
+beautifulsoup4
+lxml
+yfinance
+pymongo
+certifi
+python-dotenv
+
+# --- Data Transformation & Cloud ---
+google-cloud-bigquery
+db-dtypes
+dbt-core
+dbt-bigquery
+
+# --- Machine Learning & NLP ---
+pandas
+numpy
+textblob
+scikit-learn
+
+# --- Visualization & AI ---
+seaborn
+matplotlib
+google-generativeai
+sendgrid
